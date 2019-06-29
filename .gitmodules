@@ -1,0 +1,27 @@
+[submodule "recktangle"]
+	path = recktangle
+	url = https://github.com/lightningkite/recktangle.git
+[submodule "mirror-kotlin"]
+	path = mirror-kotlin
+	url = https://github.com/lightningkite/mirror-kotlin.git
+[submodule "kommon"]
+	path = kommon
+	url = https://github.com/lightningkite/kommon.git
+[submodule "lokalize"]
+	path = lokalize
+	url = https://github.com/lightningkite/lokalize.git
+[submodule "reacktive"]
+	path = reacktive
+	url = https://github.com/lightningkite/reacktive.git
+[submodule "mirror-archive"]
+	path = mirror-archive
+	url = https://github.com/lightningkite/mirror-archive.git
+[submodule "mirror-form"]
+	path = mirror-form
+	url = https://github.com/lightningkite/mirror-form.git
+[submodule "konvenience"]
+	path = konvenience
+	url = https://github.com/lightningkite/konvenience.git
+[submodule "koolui"]
+	path = koolui
+	url = https://github.com/lightningkite/koolui.git

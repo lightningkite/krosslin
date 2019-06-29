@@ -1,0 +1,11 @@
+#Internal package file, do not edit.
+#Sat Jun 08 23:02:59 MDT 2019
+0.base=C\:\\Users\\josep\\Projects\\krosslin\\test\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
+0.path=classes.dex
+1.baseType=DIRECTORY
+count=2
+1.path=classes2.dex
+0.baseType=DIRECTORY
+1.set=DEX
+1.base=C\:\\Users\\josep\\Projects\\krosslin\\test\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
+0.set=DEX

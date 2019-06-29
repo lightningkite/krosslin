@@ -1,0 +1,17 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>isEmail - </title>
+<link rel="stylesheet" href="../../style.css">
+</HEAD>
+<BODY>
+<a href="../index.html">com.lightningkite.kommon.string</a>&nbsp;/&nbsp;<a href="index.html">kotlin.String</a>&nbsp;/&nbsp;<a href="./is-email.html">isEmail</a><br/>
+<br/>
+<h1>isEmail</h1>
+<a name="com.lightningkite.kommon.string$isEmail(kotlin.String)"></a>
+<code><span class="keyword">fun </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">.</span><span class="identifier">isEmail</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a></code>
+<p>Checks if the string is an email according to the spectacularly long regex from RFC 5322:
+<code>(?:[a-z0-9!#$%&amp;'*+/=?^_</code>{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_<code>{|}~-]+)*|"(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21\x23-\x5b\x5d-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])*")@(?:(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?|\[(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?|[a-z0-9-]*[a-z0-9]:(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21-\x5a\x53-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])+)\])</code>
+Not guaranteed to be perfectly accurate, but works in all normal cases.</p>
+</BODY>
+</HTML>

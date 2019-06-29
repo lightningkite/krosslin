@@ -1,0 +1,20 @@
+
+call .\gradlew --configure-on-demand ":konvenience:publishToMavenLocal"
+call .\gradlew --configure-on-demand ":konvenience:bintrayUpload"
+call .\gradlew --configure-on-demand ":mirror-plugin:bintrayUpload"
+
+call .\gradlew --configure-on-demand ":kommon:publish"
+call .\gradlew --configure-on-demand ":recktangle:publish"
+call .\gradlew --configure-on-demand ":reacktive:publish"
+call .\gradlew --configure-on-demand ":lokalize:publish"
+call .\gradlew --configure-on-demand ":mirror-runtime:publish"
+call .\gradlew --configure-on-demand ":mirror-server:publish"
+call .\gradlew --configure-on-demand ":koolui:publish"
+
+call .\gradlew --configure-on-demand ":kommon:releaseBintray"
+call .\gradlew --configure-on-demand ":recktangle:releaseBintray"
+call .\gradlew --configure-on-demand ":reacktive:releaseBintray"
+call .\gradlew --configure-on-demand ":lokalize:releaseBintray"
+call .\gradlew --configure-on-demand ":mirror-runtime:releaseBintray"
+call .\gradlew --configure-on-demand ":mirror-server:releaseBintray"
+call .\gradlew --configure-on-demand ":koolui:releaseBintray"

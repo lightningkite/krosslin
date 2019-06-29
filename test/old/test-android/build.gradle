@@ -1,0 +1,86 @@
+buildscript {
+
+    repositories {
+        maven { url "http://dl.bintray.com/kotlin/kotlin-eap" }
+        maven { url "http://dl.bintray.com/kotlin/kotlin-dev" }
+        mavenCentral()
+        google()
+
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.2.1'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:${versionsProperties.getProperty("kotlin")}"
+    }
+}
+
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-platform-android'
+
+android {
+    compileSdkVersion 27
+
+    defaultConfig {
+        applicationId "desktop.kotlin.lk.test_android"
+        minSdkVersion 16
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+    }
+
+    packagingOptions {
+        exclude 'META-INF/**.kotlin_module'
+        exclude 'META-INF/**.kotlin_module'
+        exclude 'META-INF/**.kotlin_module'
+        exclude 'META-INF/**.kotlin_module'
+        exclude 'META-INF/**.kotlin_module'
+        exclude 'META-INF/**.kotlin_module'
+        exclude 'META-INF/**.kotlin_module'
+        exclude 'META-INF/**.kotlin_module'
+        exclude 'META-INF/**.kotlin_module'
+        exclude 'META-INF/**.kotlin_module'
+        exclude 'META-INF/**.kotlin_module'
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+}
+
+repositories {
+    mavenCentral()
+    google()
+    jcenter()
+    mavenLocal()
+}
+
+dependencies {
+    api fileTree(dir: 'libs', include: ['*.jar'])
+    api "org.jetbrains.kotlin:kotlin-stdlib-jdk7:${versionsProperties.getProperty("kotlin")}"
+    api "org.jetbrains.kotlinx:kotlinx-coroutines-core:${rootProject.coroutinesVersion}"
+    testApi 'junit:junit:4.12'
+    api "com.lightningkite:kommunicate-mirror-jvm:0.0.2"
+    api "com.lightningkite:mirror-runtime-jvm:0.0.2"
+    androidTestApi 'com.android.support.test:runner:1.0.2'
+    androidTestApi 'com.android.support.test.espresso:espresso-core:3.0.2'
+
+    api "com.android.support:appcompat-v7:27.1.1"
+    expectedBy project(':test-common')
+
+    api 'com.lightningkite:kommon-jvm:0.0.2'
+    api 'com.lightningkite:kommunicate-jvm:0.0.2'
+    api 'com.lightningkite:lokalize-jvm:0.0.2'
+    api 'com.lightningkite:reacktive-jvm:0.0.2'
+    api 'com.lightningkite:recktangle-jvm:0.0.2'
+    api "com.lightningkite:mirror-runtime-jvm:0.0.2"
+    api "com.lightningkite:mirror-runtime-jvm:0.0.2"
+    api "com.lightningkite:kommunicate-mirror-jvm:0.0.2"
+    api 'com.lightningkite:koolui-android:0.0.2'
+    api 'com.lightningkite:mirror-form-android:0.0.2'
+}

@@ -1,0 +1,7 @@
+#Sat Jun 08 23:02:58 MDT 2019
+base.1=C\:\\Users\\josep\\Projects\\krosslin\\test\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
+path.1=classes2.dex
+base.0=C\:\\Users\\josep\\Projects\\krosslin\\test\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
+renamed.1=classes2.dex
+renamed.0=classes.dex
+path.0=classes.dex

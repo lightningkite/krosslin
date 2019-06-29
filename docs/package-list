@@ -1,0 +1,131 @@
+$dokka.format:html
+$dokka.linkExtension:html
+$dokka.location:com.lightningkite.kommon$asInt8Array(kotlin.ByteArray)com.lightningkite.kommon/kotlin.-byte-array/as-int8-array.html
+$dokka.location:com.lightningkite.kommon.atomic.AtomicIntcom.lightningkite.kommon.atomic/-atomic-int/index.html
+$dokka.location:com.lightningkite.kommon.atomic.AtomicInt$<init>(kotlin.Int)com.lightningkite.kommon.atomic/-atomic-int/-atomic-int/-init-.html
+$dokka.location:com.lightningkite.kommon.atomic.AtomicInt$addAndGet(kotlin.Int)com.lightningkite.kommon.atomic/-atomic-int/-atomic-int/add-and-get.html
+$dokka.location:com.lightningkite.kommon.atomic.AtomicInt$backingcom.lightningkite.kommon.atomic/-atomic-int/-atomic-int/backing.html
+$dokka.location:com.lightningkite.kommon.atomic.AtomicInt$compareAndSet(kotlin.Int, kotlin.Int)com.lightningkite.kommon.atomic/-atomic-int/-atomic-int/compare-and-set.html
+$dokka.location:com.lightningkite.kommon.atomic.AtomicInt$decrement()com.lightningkite.kommon.atomic/-atomic-int/-atomic-int/decrement.html
+$dokka.location:com.lightningkite.kommon.atomic.AtomicInt$increment()com.lightningkite.kommon.atomic/-atomic-int/-atomic-int/increment.html
+$dokka.location:com.lightningkite.kommon.atomic.AtomicInt$valuecom.lightningkite.kommon.atomic/-atomic-int/-atomic-int/value.html
+$dokka.location:com.lightningkite.kommon.atomic.AtomicLongcom.lightningkite.kommon.atomic/-atomic-long/index.html
+$dokka.location:com.lightningkite.kommon.atomic.AtomicLong$<init>(kotlin.Long)com.lightningkite.kommon.atomic/-atomic-long/-atomic-long/-init-.html
+$dokka.location:com.lightningkite.kommon.atomic.AtomicLong$addAndGet(kotlin.Long)com.lightningkite.kommon.atomic/-atomic-long/-atomic-long/add-and-get.html
+$dokka.location:com.lightningkite.kommon.atomic.AtomicLong$backingcom.lightningkite.kommon.atomic/-atomic-long/-atomic-long/backing.html
+$dokka.location:com.lightningkite.kommon.atomic.AtomicLong$compareAndSet(kotlin.Long, kotlin.Long)com.lightningkite.kommon.atomic/-atomic-long/-atomic-long/compare-and-set.html
+$dokka.location:com.lightningkite.kommon.atomic.AtomicLong$decrement()com.lightningkite.kommon.atomic/-atomic-long/-atomic-long/decrement.html
+$dokka.location:com.lightningkite.kommon.atomic.AtomicLong$increment()com.lightningkite.kommon.atomic/-atomic-long/-atomic-long/increment.html
+$dokka.location:com.lightningkite.kommon.atomic.AtomicLong$valuecom.lightningkite.kommon.atomic/-atomic-long/-atomic-long/value.html
+$dokka.location:com.lightningkite.kommon.atomic.AtomicReferencecom.lightningkite.kommon.atomic/-atomic-reference/index.html
+$dokka.location:com.lightningkite.kommon.atomic.AtomicReference$<init>(com.lightningkite.kommon.atomic.AtomicReference.T)com.lightningkite.kommon.atomic/-atomic-reference/-atomic-reference/-init-.html
+$dokka.location:com.lightningkite.kommon.atomic.AtomicReference$backingcom.lightningkite.kommon.atomic/-atomic-reference/-atomic-reference/backing.html
+$dokka.location:com.lightningkite.kommon.atomic.AtomicReference$compareAndSet(com.lightningkite.kommon.atomic.AtomicReference.T, com.lightningkite.kommon.atomic.AtomicReference.T)com.lightningkite.kommon.atomic/-atomic-reference/-atomic-reference/compare-and-set.html
+$dokka.location:com.lightningkite.kommon.atomic.AtomicReference$valuecom.lightningkite.kommon.atomic/-atomic-reference/-atomic-reference/value.html
+$dokka.location:com.lightningkite.kommon.bytes$bitHigh(kotlin.Int, kotlin.Int)com.lightningkite.kommon.bytes/kotlin.-int/bit-high.html
+$dokka.location:com.lightningkite.kommon.bytes$bitHigh(kotlin.Long, kotlin.Int)com.lightningkite.kommon.bytes/kotlin.-long/bit-high.html
+$dokka.location:com.lightningkite.kommon.bytes$bitHighFlip(kotlin.Int, kotlin.Int)com.lightningkite.kommon.bytes/kotlin.-int/bit-high-flip.html
+$dokka.location:com.lightningkite.kommon.bytes$bitHighFlip(kotlin.Long, kotlin.Int)com.lightningkite.kommon.bytes/kotlin.-long/bit-high-flip.html
+$dokka.location:com.lightningkite.kommon.bytes$bitHighOff(kotlin.Int, kotlin.Int)com.lightningkite.kommon.bytes/kotlin.-int/bit-high-off.html
+$dokka.location:com.lightningkite.kommon.bytes$bitHighOff(kotlin.Long, kotlin.Int)com.lightningkite.kommon.bytes/kotlin.-long/bit-high-off.html
+$dokka.location:com.lightningkite.kommon.bytes$bitHighOn(kotlin.Int, kotlin.Int)com.lightningkite.kommon.bytes/kotlin.-int/bit-high-on.html
+$dokka.location:com.lightningkite.kommon.bytes$bitHighOn(kotlin.Long, kotlin.Int)com.lightningkite.kommon.bytes/kotlin.-long/bit-high-on.html
+$dokka.location:com.lightningkite.kommon.bytes$bitHighSet(kotlin.Int, kotlin.Int, kotlin.Boolean)com.lightningkite.kommon.bytes/kotlin.-int/bit-high-set.html
+$dokka.location:com.lightningkite.kommon.bytes$bitHighSet(kotlin.Long, kotlin.Int, kotlin.Boolean)com.lightningkite.kommon.bytes/kotlin.-long/bit-high-set.html
+$dokka.location:com.lightningkite.kommon.bytes$bitLow(kotlin.Int, kotlin.Int)com.lightningkite.kommon.bytes/kotlin.-int/bit-low.html
+$dokka.location:com.lightningkite.kommon.bytes$bitLow(kotlin.Long, kotlin.Int)com.lightningkite.kommon.bytes/kotlin.-long/bit-low.html
+$dokka.location:com.lightningkite.kommon.bytes$bitLowFlip(kotlin.Int, kotlin.Int)com.lightningkite.kommon.bytes/kotlin.-int/bit-low-flip.html
+$dokka.location:com.lightningkite.kommon.bytes$bitLowFlip(kotlin.Long, kotlin.Int)com.lightningkite.kommon.bytes/kotlin.-long/bit-low-flip.html
+$dokka.location:com.lightningkite.kommon.bytes$bitLowOff(kotlin.Int, kotlin.Int)com.lightningkite.kommon.bytes/kotlin.-int/bit-low-off.html
+$dokka.location:com.lightningkite.kommon.bytes$bitLowOff(kotlin.Long, kotlin.Int)com.lightningkite.kommon.bytes/kotlin.-long/bit-low-off.html
+$dokka.location:com.lightningkite.kommon.bytes$bitLowOn(kotlin.Int, kotlin.Int)com.lightningkite.kommon.bytes/kotlin.-int/bit-low-on.html
+$dokka.location:com.lightningkite.kommon.bytes$bitLowOn(kotlin.Long, kotlin.Int)com.lightningkite.kommon.bytes/kotlin.-long/bit-low-on.html
+$dokka.location:com.lightningkite.kommon.bytes$bitLowSet(kotlin.Int, kotlin.Int, kotlin.Boolean)com.lightningkite.kommon.bytes/kotlin.-int/bit-low-set.html
+$dokka.location:com.lightningkite.kommon.bytes$bitLowSet(kotlin.Long, kotlin.Int, kotlin.Boolean)com.lightningkite.kommon.bytes/kotlin.-long/bit-low-set.html
+$dokka.location:com.lightningkite.kommon.bytes$bitsHigh(kotlin.Int)com.lightningkite.kommon.bytes/kotlin.-int/bits-high.html
+$dokka.location:com.lightningkite.kommon.bytes$bitsHigh(kotlin.Long)com.lightningkite.kommon.bytes/kotlin.-long/bits-high.html
+$dokka.location:com.lightningkite.kommon.bytes$bitsLow(kotlin.Int)com.lightningkite.kommon.bytes/kotlin.-int/bits-low.html
+$dokka.location:com.lightningkite.kommon.bytes$bitsLow(kotlin.Long)com.lightningkite.kommon.bytes/kotlin.-long/bits-low.html
+$dokka.location:com.lightningkite.kommon.bytes$hexToByteArray(kotlin.String)com.lightningkite.kommon.bytes/kotlin.-string/hex-to-byte-array.html
+$dokka.location:com.lightningkite.kommon.bytes$toByteArray(kotlin.Int)com.lightningkite.kommon.bytes/kotlin.-int/to-byte-array.html
+$dokka.location:com.lightningkite.kommon.bytes$toHexValue(kotlin.Char)com.lightningkite.kommon.bytes/kotlin.-char/to-hex-value.html
+$dokka.location:com.lightningkite.kommon.bytes$toInt(kotlin.ByteArray)com.lightningkite.kommon.bytes/kotlin.-byte-array/to-int.html
+$dokka.location:com.lightningkite.kommon.bytes$toIntUnsigned(kotlin.Byte)com.lightningkite.kommon.bytes/kotlin.-byte/to-int-unsigned.html
+$dokka.location:com.lightningkite.kommon.bytes$toStringHex(kotlin.ByteArray)com.lightningkite.kommon.bytes/kotlin.-byte-array/to-string-hex.html
+$dokka.location:com.lightningkite.kommon.collection$addAllSorted(kotlin.collections.MutableList((com.lightningkite.kommon.collection.addAllSorted.E)), kotlin.collections.Collection((com.lightningkite.kommon.collection.addAllSorted.E)))com.lightningkite.kommon.collection/kotlin.collections.-mutable-list/add-all-sorted.html
+$dokka.location:com.lightningkite.kommon.collection$addSorted(kotlin.collections.MutableList((com.lightningkite.kommon.collection.addSorted.E)), com.lightningkite.kommon.collection.addSorted.E)com.lightningkite.kommon.collection/kotlin.collections.-mutable-list/add-sorted.html
+$dokka.location:com.lightningkite.kommon.collection$addSorted(kotlin.collections.MutableList((com.lightningkite.kommon.collection.addSorted.E)), com.lightningkite.kommon.collection.addSorted.E, ((com.lightningkite.kommon.collection.addSorted.E)))com.lightningkite.kommon.collection/kotlin.collections.-mutable-list/add-sorted.html
+$dokka.location:com.lightningkite.kommon.collection$addSorted(kotlin.collections.MutableList((com.lightningkite.kommon.collection.addSorted.E)), com.lightningkite.kommon.collection.addSorted.E, kotlin.Function2((com.lightningkite.kommon.collection.addSorted.E, , kotlin.Boolean)))com.lightningkite.kommon.collection/kotlin.collections.-mutable-list/add-sorted.html
+$dokka.location:com.lightningkite.kommon.collection$addSortedReverse(kotlin.collections.MutableList((com.lightningkite.kommon.collection.addSortedReverse.E)), com.lightningkite.kommon.collection.addSortedReverse.E)com.lightningkite.kommon.collection/kotlin.collections.-mutable-list/add-sorted-reverse.html
+$dokka.location:com.lightningkite.kommon.collection$back(kotlin.collections.MutableList((com.lightningkite.kommon.collection.back.E)), kotlin.Function1((com.lightningkite.kommon.collection.back.E, kotlin.Boolean)))com.lightningkite.kommon.collection/kotlin.collections.-mutable-list/back.html
+$dokka.location:com.lightningkite.kommon.collection$contentEquals(kotlin.collections.Collection((kotlin.Any)), kotlin.collections.Collection((kotlin.Any)))com.lightningkite.kommon.collection/kotlin.collections.-collection/content-equals.html
+$dokka.location:com.lightningkite.kommon.collection$contentEquals(kotlin.collections.Iterable((kotlin.Any)), kotlin.collections.Iterable((kotlin.Any)))com.lightningkite.kommon.collection/kotlin.collections.-iterable/content-equals.html
+$dokka.location:com.lightningkite.kommon.collection$pop(kotlin.collections.MutableList((com.lightningkite.kommon.collection.pop.E)))com.lightningkite.kommon.collection/kotlin.collections.-mutable-list/pop.html
+$dokka.location:com.lightningkite.kommon.collection$popFrom(kotlin.collections.MutableList((com.lightningkite.kommon.collection.popFrom.E)), com.lightningkite.kommon.collection.popFrom.E)com.lightningkite.kommon.collection/kotlin.collections.-mutable-list/pop-from.html
+$dokka.location:com.lightningkite.kommon.collection$prepend(kotlin.collections.MutableList((com.lightningkite.kommon.collection.prepend.E)), com.lightningkite.kommon.collection.prepend.E)com.lightningkite.kommon.collection/kotlin.collections.-mutable-list/prepend.html
+$dokka.location:com.lightningkite.kommon.collection$push(kotlin.collections.MutableList((com.lightningkite.kommon.collection.push.E)), com.lightningkite.kommon.collection.push.E)com.lightningkite.kommon.collection/kotlin.collections.-mutable-list/push.html
+$dokka.location:com.lightningkite.kommon.collection$pushFrom(kotlin.collections.MutableList((com.lightningkite.kommon.collection.pushFrom.E)), com.lightningkite.kommon.collection.pushFrom.E, com.lightningkite.kommon.collection.pushFrom.E)com.lightningkite.kommon.collection/kotlin.collections.-mutable-list/push-from.html
+$dokka.location:com.lightningkite.kommon.collection$reset(kotlin.collections.MutableList((com.lightningkite.kommon.collection.reset.E)), com.lightningkite.kommon.collection.reset.E)com.lightningkite.kommon.collection/kotlin.collections.-mutable-list/reset.html
+$dokka.location:com.lightningkite.kommon.collection$root(kotlin.collections.MutableList((com.lightningkite.kommon.collection.root.E)))com.lightningkite.kommon.collection/kotlin.collections.-mutable-list/root.html
+$dokka.location:com.lightningkite.kommon.collection$shift(kotlin.collections.MutableList((com.lightningkite.kommon.collection.shift.E)))com.lightningkite.kommon.collection/kotlin.collections.-mutable-list/shift.html
+$dokka.location:com.lightningkite.kommon.collection$swap(kotlin.collections.MutableList((com.lightningkite.kommon.collection.swap.E)), com.lightningkite.kommon.collection.swap.E)com.lightningkite.kommon.collection/kotlin.collections.-mutable-list/swap.html
+$dokka.location:com.lightningkite.kommon.collection$swapFrom(kotlin.collections.MutableList((com.lightningkite.kommon.collection.swapFrom.E)), com.lightningkite.kommon.collection.swapFrom.E, com.lightningkite.kommon.collection.swapFrom.E)com.lightningkite.kommon.collection/kotlin.collections.-mutable-list/swap-from.html
+$dokka.location:com.lightningkite.kommon.collection$treeWalkBreadthSequence(kotlin.collections.Iterable((com.lightningkite.kommon.collection.treeWalkBreadthSequence.T)), kotlin.Function1((com.lightningkite.kommon.collection.treeWalkBreadthSequence.T, (()))))com.lightningkite.kommon.collection/kotlin.collections.-iterable/tree-walk-breadth-sequence.html
+$dokka.location:com.lightningkite.kommon.collection$treeWalkDepthSequence(kotlin.collections.Iterable((com.lightningkite.kommon.collection.treeWalkDepthSequence.T)), kotlin.Function1((com.lightningkite.kommon.collection.treeWalkDepthSequence.T, (()))))com.lightningkite.kommon.collection/kotlin.collections.-iterable/tree-walk-depth-sequence.html
+$dokka.location:com.lightningkite.kommon.collection.ConcurrentHashMapcom.lightningkite.kommon.collection/-concurrent-hash-map/index.html
+$dokka.location:com.lightningkite.kommon.collection.ConcurrentHashMap$<init>()com.lightningkite.kommon.collection/-concurrent-hash-map/-concurrent-hash-map/-init-.html
+$dokka.location:com.lightningkite.kommon.collection.SortedSetcom.lightningkite.kommon.collection/-sorted-set/index.html
+$dokka.location:com.lightningkite.kommon.collection.SortedSet$<init>(((com.lightningkite.kommon.collection.SortedSet.E)))com.lightningkite.kommon.collection/-sorted-set/-sorted-set/-init-.html
+$dokka.location:com.lightningkite.kommon.collection.SortedSet$add(com.lightningkite.kommon.collection.SortedSet.E)com.lightningkite.kommon.collection/-sorted-set/-sorted-set/add.html
+$dokka.location:com.lightningkite.kommon.collection.SortedSet$addAll(kotlin.collections.Collection((com.lightningkite.kommon.collection.SortedSet.E)))com.lightningkite.kommon.collection/-sorted-set/-sorted-set/add-all.html
+$dokka.location:com.lightningkite.kommon.collection.SortedSet$clear()com.lightningkite.kommon.collection/-sorted-set/-sorted-set/clear.html
+$dokka.location:com.lightningkite.kommon.collection.SortedSet$comparatorcom.lightningkite.kommon.collection/-sorted-set/-sorted-set/comparator.html
+$dokka.location:com.lightningkite.kommon.collection.SortedSet$contains(com.lightningkite.kommon.collection.SortedSet.E)com.lightningkite.kommon.collection/-sorted-set/-sorted-set/contains.html
+$dokka.location:com.lightningkite.kommon.collection.SortedSet$containsAll(kotlin.collections.Collection((com.lightningkite.kommon.collection.SortedSet.E)))com.lightningkite.kommon.collection/-sorted-set/-sorted-set/contains-all.html
+$dokka.location:com.lightningkite.kommon.collection.SortedSet$isEmpty()com.lightningkite.kommon.collection/-sorted-set/-sorted-set/is-empty.html
+$dokka.location:com.lightningkite.kommon.collection.SortedSet$iterator()com.lightningkite.kommon.collection/-sorted-set/-sorted-set/iterator.html
+$dokka.location:com.lightningkite.kommon.collection.SortedSet$remove(com.lightningkite.kommon.collection.SortedSet.E)com.lightningkite.kommon.collection/-sorted-set/-sorted-set/remove.html
+$dokka.location:com.lightningkite.kommon.collection.SortedSet$removeAll(kotlin.collections.Collection((com.lightningkite.kommon.collection.SortedSet.E)))com.lightningkite.kommon.collection/-sorted-set/-sorted-set/remove-all.html
+$dokka.location:com.lightningkite.kommon.collection.SortedSet$retainAll(kotlin.collections.Collection((com.lightningkite.kommon.collection.SortedSet.E)))com.lightningkite.kommon.collection/-sorted-set/-sorted-set/retain-all.html
+$dokka.location:com.lightningkite.kommon.collection.SortedSet$sizecom.lightningkite.kommon.collection/-sorted-set/-sorted-set/size.html
+$dokka.location:com.lightningkite.kommon.collection.SortedSet$underlyingcom.lightningkite.kommon.collection/-sorted-set/-sorted-set/underlying.html
+$dokka.location:com.lightningkite.kommon.collection.WeakHashMapcom.lightningkite.kommon.collection/-weak-hash-map/index.html
+$dokka.location:com.lightningkite.kommon.collection.WeakHashMap$<init>()com.lightningkite.kommon.collection/-weak-hash-map/-weak-hash-map/-init-.html
+$dokka.location:com.lightningkite.kommon.collection.WeakHashMap$clear()com.lightningkite.kommon.collection/-weak-hash-map/-weak-hash-map/clear.html
+$dokka.location:com.lightningkite.kommon.collection.WeakHashMap$containsKey(com.lightningkite.kommon.collection.WeakHashMap.K)com.lightningkite.kommon.collection/-weak-hash-map/-weak-hash-map/contains-key.html
+$dokka.location:com.lightningkite.kommon.collection.WeakHashMap$containsValue(com.lightningkite.kommon.collection.WeakHashMap.V)com.lightningkite.kommon.collection/-weak-hash-map/-weak-hash-map/contains-value.html
+$dokka.location:com.lightningkite.kommon.collection.WeakHashMap$entriescom.lightningkite.kommon.collection/-weak-hash-map/-weak-hash-map/entries.html
+$dokka.location:com.lightningkite.kommon.collection.WeakHashMap$genId()com.lightningkite.kommon.collection/-weak-hash-map/-weak-hash-map/gen-id.html
+$dokka.location:com.lightningkite.kommon.collection.WeakHashMap$get(com.lightningkite.kommon.collection.WeakHashMap.K)com.lightningkite.kommon.collection/-weak-hash-map/-weak-hash-map/get.html
+$dokka.location:com.lightningkite.kommon.collection.WeakHashMap$idcom.lightningkite.kommon.collection/-weak-hash-map/-weak-hash-map/id.html
+$dokka.location:com.lightningkite.kommon.collection.WeakHashMap$isEmpty()com.lightningkite.kommon.collection/-weak-hash-map/-weak-hash-map/is-empty.html
+$dokka.location:com.lightningkite.kommon.collection.WeakHashMap$keyscom.lightningkite.kommon.collection/-weak-hash-map/-weak-hash-map/keys.html
+$dokka.location:com.lightningkite.kommon.collection.WeakHashMap$put(com.lightningkite.kommon.collection.WeakHashMap.K, com.lightningkite.kommon.collection.WeakHashMap.V)com.lightningkite.kommon.collection/-weak-hash-map/-weak-hash-map/put.html
+$dokka.location:com.lightningkite.kommon.collection.WeakHashMap$putAll(kotlin.collections.Map((com.lightningkite.kommon.collection.WeakHashMap.K, com.lightningkite.kommon.collection.WeakHashMap.V)))com.lightningkite.kommon.collection/-weak-hash-map/-weak-hash-map/put-all.html
+$dokka.location:com.lightningkite.kommon.collection.WeakHashMap$remove(com.lightningkite.kommon.collection.WeakHashMap.K)com.lightningkite.kommon.collection/-weak-hash-map/-weak-hash-map/remove.html
+$dokka.location:com.lightningkite.kommon.collection.WeakHashMap$sizecom.lightningkite.kommon.collection/-weak-hash-map/-weak-hash-map/size.html
+$dokka.location:com.lightningkite.kommon.collection.WeakHashMap$valuescom.lightningkite.kommon.collection/-weak-hash-map/-weak-hash-map/values.html
+$dokka.location:com.lightningkite.kommon.collection.WeakHashMap.UnderlyingKey$<init>(((com.lightningkite.kommon.collection.WeakHashMap.UnderlyingKey.K)))com.lightningkite.kommon.collection/-weak-hash-map/-underlying-key/-init-.html
+$dokka.location:com.lightningkite.kommon.collection.WeakHashMap.UnderlyingKey$<init>(com.lightningkite.kommon.collection.WeakHashMap.UnderlyingKey.K)com.lightningkite.kommon.collection/-weak-hash-map/-underlying-key/-init-.html
+$dokka.location:com.lightningkite.kommon.collection.WeakHashMap.UnderlyingKey$equals(kotlin.Any)com.lightningkite.kommon.collection/-weak-hash-map/-underlying-key/equals.html
+$dokka.location:com.lightningkite.kommon.collection.WeakHashMap.UnderlyingKey$hashCode()com.lightningkite.kommon.collection/-weak-hash-map/-underlying-key/hash-code.html
+$dokka.location:com.lightningkite.kommon.collection.WeakHashMap.UnderlyingKey$weakReferencecom.lightningkite.kommon.collection/-weak-hash-map/-underlying-key/weak-reference.html
+$dokka.location:com.lightningkite.kommon.exception$stackTraceString(kotlin.Throwable)com.lightningkite.kommon.exception/kotlin.-throwable/stack-trace-string.html
+$dokka.location:com.lightningkite.kommon.native$ensureNeverFrozen(kotlin.Any)com.lightningkite.kommon.native/kotlin.-any/ensure-never-frozen.html
+$dokka.location:com.lightningkite.kommon.native$isFrozen#kotlin.Anycom.lightningkite.kommon.native/kotlin.-any/is-frozen.html
+$dokka.location:com.lightningkite.kommon.native.reroute$rerouteEnsureNeverFrozen(kotlin.Any)com.lightningkite.kommon.native.reroute/kotlin.-any/reroute-ensure-never-frozen.html
+$dokka.location:com.lightningkite.kommon.native.reroute$rerouteFrozen(kotlin.Any)com.lightningkite.kommon.native.reroute/kotlin.-any/reroute-frozen.html
+$dokka.location:com.lightningkite.kommon.string$isControl(kotlin.Char)com.lightningkite.kommon.string/kotlin.-char/is-control.html
+$dokka.location:com.lightningkite.kommon.string$isDigit(kotlin.Char)com.lightningkite.kommon.string/kotlin.-char/is-digit.html
+$dokka.location:com.lightningkite.kommon.string$isEmail(kotlin.String)com.lightningkite.kommon.string/kotlin.-string/is-email.html
+$dokka.location:com.lightningkite.kommon.string$isLetter(kotlin.Char)com.lightningkite.kommon.string/kotlin.-char/is-letter.html
+$dokka.location:com.lightningkite.kommon.string$isLowercase(kotlin.Char)com.lightningkite.kommon.string/kotlin.-char/is-lowercase.html
+$dokka.location:com.lightningkite.kommon.string$isUppercase(kotlin.Char)com.lightningkite.kommon.string/kotlin.-char/is-uppercase.html
+com.lightningkite.kommon
+com.lightningkite.kommon.atomic
+com.lightningkite.kommon.bytes
+com.lightningkite.kommon.collection
+com.lightningkite.kommon.exception
+com.lightningkite.kommon.native
+com.lightningkite.kommon.native.reroute
+com.lightningkite.kommon.string

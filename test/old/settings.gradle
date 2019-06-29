@@ -1,0 +1,6 @@
+
+include ':test-common'
+include ':test-javafx'
+include ':test-js'
+include ':test-android'
+include ':test-server'

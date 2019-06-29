@@ -1,0 +1,11 @@
+name = com.lightningkite.krosslin.test.models.registerKrosslinTest
+
+com.lightningkite.krosslin.test.models.Post
+com.lightningkite.krosslin.test.models.Post.Access
+com.lightningkite.krosslin.test.models.User
+com.lightningkite.krosslin.test.models.User.Token
+com.lightningkite.krosslin.test.models.User.Role
+com.lightningkite.krosslin.test.models.User.Access
+com.lightningkite.krosslin.test.models.User.GetToken
+com.lightningkite.krosslin.test.models.User.ResetPassword
+com.lightningkite.lokalize.location.Geohash

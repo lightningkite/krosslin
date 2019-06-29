@@ -1,0 +1,152 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>com.lightningkite.kommon.collection.kotlin.collections.MutableList - </title>
+<link rel="stylesheet" href="../../style.css">
+</HEAD>
+<BODY>
+<a href="../index.html">com.lightningkite.kommon.collection</a>&nbsp;/&nbsp;<a href="./index.html">kotlin.collections.MutableList</a><br/>
+<br/>
+<h3>Extensions for kotlin.collections.MutableList</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="add-all-sorted.html">addAllSorted</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="symbol">&lt;</span><span class="identifier">E</span>&nbsp;<span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-comparable/index.html"><span class="identifier">Comparable</span></a><span class="symbol">&lt;</span><a href="add-all-sorted.html#E"><span class="identifier">E</span></a><span class="symbol">&gt;</span><span class="symbol">&gt;</span> <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-mutable-list/index.html"><span class="identifier">MutableList</span></a><span class="symbol">&lt;</span><a href="add-all-sorted.html#E"><span class="identifier">E</span></a><span class="symbol">&gt;</span><span class="symbol">.</span><span class="identifier">addAllSorted</span><span class="symbol">(</span><span class="identifier" id="com.lightningkite.kommon.collection$addAllSorted(kotlin.collections.MutableList((com.lightningkite.kommon.collection.addAllSorted.E)), kotlin.collections.Collection((com.lightningkite.kommon.collection.addAllSorted.E)))/items">items</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-collection/index.html"><span class="identifier">Collection</span></a><span class="symbol">&lt;</span><a href="add-all-sorted.html#E"><span class="identifier">E</span></a><span class="symbol">&gt;</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Finds the position an item belongs in the list (assuming it's sorted) and inserts it there.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="add-sorted.html">addSorted</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="symbol">&lt;</span><span class="identifier">E</span><span class="symbol">&gt;</span> <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-mutable-list/index.html"><span class="identifier">MutableList</span></a><span class="symbol">&lt;</span><a href="add-sorted.html#E"><span class="identifier">E</span></a><span class="symbol">&gt;</span><span class="symbol">.</span><span class="identifier">addSorted</span><span class="symbol">(</span><span class="identifier" id="com.lightningkite.kommon.collection$addSorted(kotlin.collections.MutableList((com.lightningkite.kommon.collection.addSorted.E)), com.lightningkite.kommon.collection.addSorted.E, kotlin.Function2((com.lightningkite.kommon.collection.addSorted.E, , kotlin.Boolean)))/item">item</span><span class="symbol">:</span>&nbsp;<a href="add-sorted.html#E"><span class="identifier">E</span></a><span class="symbol">, </span><span class="identifier" id="com.lightningkite.kommon.collection$addSorted(kotlin.collections.MutableList((com.lightningkite.kommon.collection.addSorted.E)), com.lightningkite.kommon.collection.addSorted.E, kotlin.Function2((com.lightningkite.kommon.collection.addSorted.E, , kotlin.Boolean)))/compare">compare</span><span class="symbol">:</span>&nbsp;<span class="symbol">(</span><a href="add-sorted.html#E"><span class="identifier">E</span></a><span class="symbol">,</span>&nbsp;<a href="add-sorted.html#E"><span class="identifier">E</span></a><span class="symbol">)</span>&nbsp;<span class="symbol">-&gt;</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a></code>
+<p>Finds the position an item belongs in the list (assuming it's sorted) according to <a href="add-sorted.html#com.lightningkite.kommon.collection$addSorted(kotlin.collections.MutableList((com.lightningkite.kommon.collection.addSorted.E)), com.lightningkite.kommon.collection.addSorted.E, kotlin.Function2((com.lightningkite.kommon.collection.addSorted.E, , kotlin.Boolean)))/compare">compare</a> and inserts it there.</p>
+<code><span class="keyword">fun </span><span class="symbol">&lt;</span><span class="identifier">E</span><span class="symbol">&gt;</span> <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-mutable-list/index.html"><span class="identifier">MutableList</span></a><span class="symbol">&lt;</span><a href="add-sorted.html#E"><span class="identifier">E</span></a><span class="symbol">&gt;</span><span class="symbol">.</span><span class="identifier">addSorted</span><span class="symbol">(</span><span class="identifier" id="com.lightningkite.kommon.collection$addSorted(kotlin.collections.MutableList((com.lightningkite.kommon.collection.addSorted.E)), com.lightningkite.kommon.collection.addSorted.E, ((com.lightningkite.kommon.collection.addSorted.E)))/item">item</span><span class="symbol">:</span>&nbsp;<a href="add-sorted.html#E"><span class="identifier">E</span></a><span class="symbol">, </span><span class="identifier" id="com.lightningkite.kommon.collection$addSorted(kotlin.collections.MutableList((com.lightningkite.kommon.collection.addSorted.E)), com.lightningkite.kommon.collection.addSorted.E, ((com.lightningkite.kommon.collection.addSorted.E)))/comparator">comparator</span><span class="symbol">:</span>&nbsp;<span class="identifier">&lt;ERROR CLASS&gt;</span><span class="symbol">&lt;</span><span class="keyword">in</span>&nbsp;<a href="add-sorted.html#E"><span class="identifier">E</span></a><span class="symbol">&gt;</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a></code><br/>
+<code><span class="keyword">fun </span><span class="symbol">&lt;</span><span class="identifier">E</span>&nbsp;<span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-comparable/index.html"><span class="identifier">Comparable</span></a><span class="symbol">&lt;</span><a href="add-sorted.html#E"><span class="identifier">E</span></a><span class="symbol">&gt;</span><span class="symbol">&gt;</span> <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-mutable-list/index.html"><span class="identifier">MutableList</span></a><span class="symbol">&lt;</span><a href="add-sorted.html#E"><span class="identifier">E</span></a><span class="symbol">&gt;</span><span class="symbol">.</span><span class="identifier">addSorted</span><span class="symbol">(</span><span class="identifier" id="com.lightningkite.kommon.collection$addSorted(kotlin.collections.MutableList((com.lightningkite.kommon.collection.addSorted.E)), com.lightningkite.kommon.collection.addSorted.E)/item">item</span><span class="symbol">:</span>&nbsp;<a href="add-sorted.html#E"><span class="identifier">E</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a></code>
+<p>Finds the position an item belongs in the list (assuming it's sorted) according to <a href="#">compare</a> and inserts it there.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="add-sorted-reverse.html">addSortedReverse</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="symbol">&lt;</span><span class="identifier">E</span>&nbsp;<span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-comparable/index.html"><span class="identifier">Comparable</span></a><span class="symbol">&lt;</span><a href="add-sorted-reverse.html#E"><span class="identifier">E</span></a><span class="symbol">&gt;</span><span class="symbol">&gt;</span> <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-mutable-list/index.html"><span class="identifier">MutableList</span></a><span class="symbol">&lt;</span><a href="add-sorted-reverse.html#E"><span class="identifier">E</span></a><span class="symbol">&gt;</span><span class="symbol">.</span><span class="identifier">addSortedReverse</span><span class="symbol">(</span><span class="identifier" id="com.lightningkite.kommon.collection$addSortedReverse(kotlin.collections.MutableList((com.lightningkite.kommon.collection.addSortedReverse.E)), com.lightningkite.kommon.collection.addSortedReverse.E)/item">item</span><span class="symbol">:</span>&nbsp;<a href="add-sorted-reverse.html#E"><span class="identifier">E</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a></code>
+<p>Finds the position an item belongs in the list (assuming it's sorted) and inserts it there.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="back.html">back</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="symbol">&lt;</span><span class="identifier">E</span><span class="symbol">&gt;</span> <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-mutable-list/index.html"><span class="identifier">MutableList</span></a><span class="symbol">&lt;</span><a href="back.html#E"><span class="identifier">E</span></a><span class="symbol">&gt;</span><span class="symbol">.</span><span class="identifier">back</span><span class="symbol">(</span><span class="identifier" id="com.lightningkite.kommon.collection$back(kotlin.collections.MutableList((com.lightningkite.kommon.collection.back.E)), kotlin.Function1((com.lightningkite.kommon.collection.back.E, kotlin.Boolean)))/predicate">predicate</span><span class="symbol">:</span>&nbsp;<span class="symbol">(</span><a href="back.html#E"><span class="identifier">E</span></a><span class="symbol">)</span>&nbsp;<span class="symbol">-&gt;</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a></code>
+<p>Pops states off the stack until a predicate is satisfied and notifies the listeners.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="pop.html">pop</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="symbol">&lt;</span><span class="identifier">E</span><span class="symbol">&gt;</span> <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-mutable-list/index.html"><span class="identifier">MutableList</span></a><span class="symbol">&lt;</span><a href="pop.html#E"><span class="identifier">E</span></a><span class="symbol">&gt;</span><span class="symbol">.</span><span class="identifier">pop</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="pop.html#E"><span class="identifier">E</span></a><span class="symbol">?</span></code>
+<p>Removes and returns the element at the end of the list or returns null if the list is empty.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="pop-from.html">popFrom</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="symbol">&lt;</span><span class="identifier">E</span><span class="symbol">&gt;</span> <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-mutable-list/index.html"><span class="identifier">MutableList</span></a><span class="symbol">&lt;</span><a href="pop-from.html#E"><span class="identifier">E</span></a><span class="symbol">&gt;</span><span class="symbol">.</span><span class="identifier">popFrom</span><span class="symbol">(</span><span class="identifier" id="com.lightningkite.kommon.collection$popFrom(kotlin.collections.MutableList((com.lightningkite.kommon.collection.popFrom.E)), com.lightningkite.kommon.collection.popFrom.E)/from">from</span><span class="symbol">:</span>&nbsp;<a href="pop-from.html#E"><span class="identifier">E</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="pop-from.html#E"><span class="identifier">E</span></a><span class="symbol">?</span></code>
+<p>Pops the <a href="pop-from.html#com.lightningkite.kommon.collection$popFrom(kotlin.collections.MutableList((com.lightningkite.kommon.collection.popFrom.E)), com.lightningkite.kommon.collection.popFrom.E)/from">from</a> state off the stack.
+If <a href="pop-from.html#com.lightningkite.kommon.collection$popFrom(kotlin.collections.MutableList((com.lightningkite.kommon.collection.popFrom.E)), com.lightningkite.kommon.collection.popFrom.E)/from">from</a> is not on the stack, then this will do nothing and return false.
+If <a href="pop-from.html#com.lightningkite.kommon.collection$popFrom(kotlin.collections.MutableList((com.lightningkite.kommon.collection.popFrom.E)), com.lightningkite.kommon.collection.popFrom.E)/from">from</a> is the last item on the stack, then this will do nothing and return false.
+If <a href="pop-from.html#com.lightningkite.kommon.collection$popFrom(kotlin.collections.MutableList((com.lightningkite.kommon.collection.popFrom.E)), com.lightningkite.kommon.collection.popFrom.E)/from">from</a> is not the last item on the stack, items will be popped off until it is.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="prepend.html">prepend</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="symbol">&lt;</span><span class="identifier">E</span><span class="symbol">&gt;</span> <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-mutable-list/index.html"><span class="identifier">MutableList</span></a><span class="symbol">&lt;</span><a href="prepend.html#E"><span class="identifier">E</span></a><span class="symbol">&gt;</span><span class="symbol">.</span><span class="identifier">prepend</span><span class="symbol">(</span><span class="identifier" id="com.lightningkite.kommon.collection$prepend(kotlin.collections.MutableList((com.lightningkite.kommon.collection.prepend.E)), com.lightningkite.kommon.collection.prepend.E)/element">element</span><span class="symbol">:</span>&nbsp;<a href="prepend.html#E"><span class="identifier">E</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Adds a state to the bottom of the stack silently.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="push.html">push</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="symbol">&lt;</span><span class="identifier">E</span><span class="symbol">&gt;</span> <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-mutable-list/index.html"><span class="identifier">MutableList</span></a><span class="symbol">&lt;</span><a href="push.html#E"><span class="identifier">E</span></a><span class="symbol">&gt;</span><span class="symbol">.</span><span class="identifier">push</span><span class="symbol">(</span><span class="identifier" id="com.lightningkite.kommon.collection$push(kotlin.collections.MutableList((com.lightningkite.kommon.collection.push.E)), com.lightningkite.kommon.collection.push.E)/element">element</span><span class="symbol">:</span>&nbsp;<a href="push.html#E"><span class="identifier">E</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a></code>
+<p>Pushes a new state onto the stack and notifies the listeners.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="push-from.html">pushFrom</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="symbol">&lt;</span><span class="identifier">E</span><span class="symbol">&gt;</span> <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-mutable-list/index.html"><span class="identifier">MutableList</span></a><span class="symbol">&lt;</span><a href="push-from.html#E"><span class="identifier">E</span></a><span class="symbol">&gt;</span><span class="symbol">.</span><span class="identifier">pushFrom</span><span class="symbol">(</span><span class="identifier" id="com.lightningkite.kommon.collection$pushFrom(kotlin.collections.MutableList((com.lightningkite.kommon.collection.pushFrom.E)), com.lightningkite.kommon.collection.pushFrom.E, com.lightningkite.kommon.collection.pushFrom.E)/from">from</span><span class="symbol">:</span>&nbsp;<a href="push-from.html#E"><span class="identifier">E</span></a><span class="symbol">, </span><span class="identifier" id="com.lightningkite.kommon.collection$pushFrom(kotlin.collections.MutableList((com.lightningkite.kommon.collection.pushFrom.E)), com.lightningkite.kommon.collection.pushFrom.E, com.lightningkite.kommon.collection.pushFrom.E)/to">to</span><span class="symbol">:</span>&nbsp;<a href="push-from.html#E"><span class="identifier">E</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Pushes a state onto the stack after <a href="push-from.html#com.lightningkite.kommon.collection$pushFrom(kotlin.collections.MutableList((com.lightningkite.kommon.collection.pushFrom.E)), com.lightningkite.kommon.collection.pushFrom.E, com.lightningkite.kommon.collection.pushFrom.E)/from">from</a>.
+If <a href="push-from.html#com.lightningkite.kommon.collection$pushFrom(kotlin.collections.MutableList((com.lightningkite.kommon.collection.pushFrom.E)), com.lightningkite.kommon.collection.pushFrom.E, com.lightningkite.kommon.collection.pushFrom.E)/from">from</a> is not on the stack, then this will do nothing.
+If <a href="push-from.html#com.lightningkite.kommon.collection$pushFrom(kotlin.collections.MutableList((com.lightningkite.kommon.collection.pushFrom.E)), com.lightningkite.kommon.collection.pushFrom.E, com.lightningkite.kommon.collection.pushFrom.E)/from">from</a> is not the last item on the stack, items will be popped off until it is.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="reset.html">reset</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="symbol">&lt;</span><span class="identifier">E</span><span class="symbol">&gt;</span> <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-mutable-list/index.html"><span class="identifier">MutableList</span></a><span class="symbol">&lt;</span><a href="reset.html#E"><span class="identifier">E</span></a><span class="symbol">&gt;</span><span class="symbol">.</span><span class="identifier">reset</span><span class="symbol">(</span><span class="identifier" id="com.lightningkite.kommon.collection$reset(kotlin.collections.MutableList((com.lightningkite.kommon.collection.reset.E)), com.lightningkite.kommon.collection.reset.E)/element">element</span><span class="symbol">:</span>&nbsp;<a href="reset.html#E"><span class="identifier">E</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Clears the stack and starts over with a new element and notifies the listeners.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="root.html">root</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="symbol">&lt;</span><span class="identifier">E</span><span class="symbol">&gt;</span> <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-mutable-list/index.html"><span class="identifier">MutableList</span></a><span class="symbol">&lt;</span><a href="root.html#E"><span class="identifier">E</span></a><span class="symbol">&gt;</span><span class="symbol">.</span><span class="identifier">root</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Pops all of the states off the stack except for the bottom one and notifies the listeners.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="shift.html">shift</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="symbol">&lt;</span><span class="identifier">E</span><span class="symbol">&gt;</span> <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-mutable-list/index.html"><span class="identifier">MutableList</span></a><span class="symbol">&lt;</span><a href="shift.html#E"><span class="identifier">E</span></a><span class="symbol">&gt;</span><span class="symbol">.</span><span class="identifier">shift</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="shift.html#E"><span class="identifier">E</span></a><span class="symbol">?</span></code>
+<p>Removes and returns the element at the start of the list or returns null if the list is empty.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="swap.html">swap</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="symbol">&lt;</span><span class="identifier">E</span><span class="symbol">&gt;</span> <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-mutable-list/index.html"><span class="identifier">MutableList</span></a><span class="symbol">&lt;</span><a href="swap.html#E"><span class="identifier">E</span></a><span class="symbol">&gt;</span><span class="symbol">.</span><span class="identifier">swap</span><span class="symbol">(</span><span class="identifier" id="com.lightningkite.kommon.collection$swap(kotlin.collections.MutableList((com.lightningkite.kommon.collection.swap.E)), com.lightningkite.kommon.collection.swap.E)/element">element</span><span class="symbol">:</span>&nbsp;<a href="swap.html#E"><span class="identifier">E</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Swaps the top state in the stack for another and notifies the listeners.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="swap-from.html">swapFrom</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="symbol">&lt;</span><span class="identifier">E</span><span class="symbol">&gt;</span> <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-mutable-list/index.html"><span class="identifier">MutableList</span></a><span class="symbol">&lt;</span><a href="swap-from.html#E"><span class="identifier">E</span></a><span class="symbol">&gt;</span><span class="symbol">.</span><span class="identifier">swapFrom</span><span class="symbol">(</span><span class="identifier" id="com.lightningkite.kommon.collection$swapFrom(kotlin.collections.MutableList((com.lightningkite.kommon.collection.swapFrom.E)), com.lightningkite.kommon.collection.swapFrom.E, com.lightningkite.kommon.collection.swapFrom.E)/from">from</span><span class="symbol">:</span>&nbsp;<a href="swap-from.html#E"><span class="identifier">E</span></a><span class="symbol">, </span><span class="identifier" id="com.lightningkite.kommon.collection$swapFrom(kotlin.collections.MutableList((com.lightningkite.kommon.collection.swapFrom.E)), com.lightningkite.kommon.collection.swapFrom.E, com.lightningkite.kommon.collection.swapFrom.E)/to">to</span><span class="symbol">:</span>&nbsp;<a href="swap-from.html#E"><span class="identifier">E</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Swaps a state onto the stack in place of <a href="swap-from.html#com.lightningkite.kommon.collection$swapFrom(kotlin.collections.MutableList((com.lightningkite.kommon.collection.swapFrom.E)), com.lightningkite.kommon.collection.swapFrom.E, com.lightningkite.kommon.collection.swapFrom.E)/from">from</a>.
+If <a href="swap-from.html#com.lightningkite.kommon.collection$swapFrom(kotlin.collections.MutableList((com.lightningkite.kommon.collection.swapFrom.E)), com.lightningkite.kommon.collection.swapFrom.E, com.lightningkite.kommon.collection.swapFrom.E)/from">from</a> is not on the stack, then this will do nothing.
+If <a href="swap-from.html#com.lightningkite.kommon.collection$swapFrom(kotlin.collections.MutableList((com.lightningkite.kommon.collection.swapFrom.E)), com.lightningkite.kommon.collection.swapFrom.E, com.lightningkite.kommon.collection.swapFrom.E)/from">from</a> is not the last item on the stack, items will be popped off until it is.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</BODY>
+</HTML>

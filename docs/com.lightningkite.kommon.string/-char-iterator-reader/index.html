@@ -1,0 +1,168 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>CharIteratorReader - </title>
+<link rel="stylesheet" href="../../style.css">
+</HEAD>
+<BODY>
+<a href="../index.html">com.lightningkite.kommon.string</a>&nbsp;/&nbsp;<a href="./index.html">CharIteratorReader</a><br/>
+<br/>
+<h1>CharIteratorReader</h1>
+<code><span class="keyword">class </span><span class="identifier">CharIteratorReader</span>&nbsp;<span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-char-iterator/index.html"><span class="identifier">CharIterator</span></a></code>
+<h3>Constructors</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="-init-.html">&lt;init&gt;</a></p>
+</td>
+<td>
+<code><span class="identifier">CharIteratorReader</span><span class="symbol">(</span><span class="identifier" id="com.lightningkite.kommon.string.CharIteratorReader$<init>(kotlin.collections.CharIterator)/source">source</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-char-iterator/index.html"><span class="identifier">CharIterator</span></a><span class="symbol">)</span></code></td>
+</tr>
+</tbody>
+</table>
+<h3>Properties</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="iter.html">iter</a></p>
+</td>
+<td>
+<code><span class="keyword">val </span><span class="identifier">iter</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-char-iterator/index.html"><span class="identifier">CharIterator</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="position.html">position</a></p>
+</td>
+<td>
+<code><span class="keyword">var </span><span class="identifier">position</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="stack.html">stack</a></p>
+</td>
+<td>
+<code><span class="keyword">val </span><span class="identifier">stack</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-char-array/index.html"><span class="identifier">CharArray</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="stack-pointer.html">stackPointer</a></p>
+</td>
+<td>
+<code><span class="keyword">var </span><span class="identifier">stackPointer</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a></code></td>
+</tr>
+</tbody>
+</table>
+<h3>Functions</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="back.html">back</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">back</span><span class="symbol">(</span><span class="identifier" id="com.lightningkite.kommon.string.CharIteratorReader$back(kotlin.Char)/char">char</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-char/index.html"><span class="identifier">Char</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code><br/>
+<code><span class="keyword">fun </span><span class="identifier">back</span><span class="symbol">(</span><span class="identifier" id="com.lightningkite.kommon.string.CharIteratorReader$back(kotlin.String)/string">string</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="check.html">check</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">check</span><span class="symbol">(</span><span class="identifier" id="com.lightningkite.kommon.string.CharIteratorReader$check(kotlin.Char)/char">char</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-char/index.html"><span class="identifier">Char</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a></code><br/>
+<code><span class="keyword">fun </span><span class="identifier">check</span><span class="symbol">(</span><span class="identifier" id="com.lightningkite.kommon.string.CharIteratorReader$check(kotlin.String)/string">string</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="has-next.html">hasNext</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">hasNext</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="next-char.html">nextChar</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">nextChar</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-char/index.html"><span class="identifier">Char</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="peek.html">peek</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">peek</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-char/index.html"><span class="identifier">Char</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="peek-while.html">peekWhile</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">peekWhile</span><span class="symbol">(</span><span class="identifier" id="com.lightningkite.kommon.string.CharIteratorReader$peekWhile(kotlin.Function1((kotlin.Char, kotlin.Boolean)))/condition">condition</span><span class="symbol">:</span>&nbsp;<span class="symbol">(</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-char/index.html"><span class="identifier">Char</span></a><span class="symbol">)</span>&nbsp;<span class="symbol">-&gt;</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="read.html">read</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">read</span><span class="symbol">(</span><span class="identifier" id="com.lightningkite.kommon.string.CharIteratorReader$read(kotlin.Int)/count">count</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a><span class="symbol">)</span><span class="symbol">: </span><span class="identifier">&lt;ERROR CLASS&gt;</span></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="read-while.html">readWhile</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">readWhile</span><span class="symbol">(</span><span class="identifier" id="com.lightningkite.kommon.string.CharIteratorReader$readWhile(kotlin.Function1((kotlin.Char, kotlin.Boolean)))/condition">condition</span><span class="symbol">:</span>&nbsp;<span class="symbol">(</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-char/index.html"><span class="identifier">Char</span></a><span class="symbol">)</span>&nbsp;<span class="symbol">-&gt;</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="skip.html">skip</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">skip</span><span class="symbol">(</span><span class="identifier" id="com.lightningkite.kommon.string.CharIteratorReader$skip(kotlin.Function1((kotlin.Char, kotlin.Boolean)))/condition">condition</span><span class="symbol">:</span>&nbsp;<span class="symbol">(</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-char/index.html"><span class="identifier">Char</span></a><span class="symbol">)</span>&nbsp;<span class="symbol">-&gt;</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="skip-assert.html">skipAssert</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">skipAssert</span><span class="symbol">(</span><span class="identifier" id="com.lightningkite.kommon.string.CharIteratorReader$skipAssert(kotlin.String)/string">string</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="skip-whitespace.html">skipWhitespace</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">skipWhitespace</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+</tbody>
+</table>
+<h3>Extension Properties</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="../../com.lightningkite.kommon.native/kotlin.-any/is-frozen.html">isFrozen</a><br/>
+(Native, NonNative)</p>
+</td>
+<td>
+<code><span class="keyword">expect</span> <span class="keyword">val </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html"><span class="identifier">Any</span></a><span class="symbol">.</span><span class="identifier">isFrozen</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a></code></td>
+</tr>
+</tbody>
+</table>
+<h3>Extension Functions</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="../../com.lightningkite.kommon.native/kotlin.-any/ensure-never-frozen.html">ensureNeverFrozen</a><br/>
+(Native, NonNative)</p>
+</td>
+<td>
+<code><span class="keyword">expect</span> <span class="keyword">fun </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html"><span class="identifier">Any</span></a><span class="symbol">.</span><span class="identifier">ensureNeverFrozen</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+</tbody>
+</table>
+</BODY>
+</HTML>

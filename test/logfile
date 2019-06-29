@@ -1,0 +1,39 @@
+2019-05-05 02:05:51.773 MDT [10612] LOG:  listening on IPv6 address "::1", port 5432
+2019-05-05 02:05:51.773 MDT [10612] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-05-05 02:05:51.827 MDT [9044] LOG:  database system was shut down at 2019-05-05 02:05:50 MDT
+2019-05-05 02:05:51.858 MDT [10612] LOG:  database system is ready to accept connections
+2019-05-05 02:07:36.668 MDT [10612] LOG:  worker process: logical replication launcher (PID 8336) exited with exit code 1
+2019-05-05 02:07:36.669 MDT [10612] LOG:  terminating any other active server processes
+2019-05-05 02:07:36.670 MDT [10396] WARNING:  terminating connection because of crash of another server process
+2019-05-05 02:07:36.670 MDT [10396] DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2019-05-05 02:07:36.670 MDT [10396] HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2019-05-05 02:07:36.686 MDT [10612] LOG:  all server processes terminated; reinitializing
+2019-05-05 02:07:36.711 MDT [12920] LOG:  database system was interrupted; last known up at 2019-05-05 02:05:51 MDT
+2019-05-05 02:07:36.920 MDT [12920] LOG:  database system was not properly shut down; automatic recovery in progress
+2019-05-05 02:07:36.926 MDT [12920] LOG:  redo starts at 0/16286C8
+2019-05-05 02:07:36.926 MDT [12920] LOG:  invalid record length at 0/1628700: wanted 24, got 0
+2019-05-05 02:07:36.926 MDT [12920] LOG:  redo done at 0/16286C8
+2019-05-05 02:07:36.974 MDT [10612] LOG:  database system is ready to accept connections
+2019-05-05 02:07:37.754 MDT [10612] LOG:  statistics collector process (PID 12644) exited with exit code 1
+2019-05-05 02:07:38.598 MDT [10612] LOG:  WAL writer process (PID 12496) exited with exit code 1
+2019-05-05 02:07:38.598 MDT [10612] LOG:  terminating any other active server processes
+2019-05-05 02:07:38.600 MDT [10796] WARNING:  terminating connection because of crash of another server process
+2019-05-05 02:07:38.600 MDT [10796] DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2019-05-05 02:07:38.600 MDT [10796] HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2019-05-05 02:07:38.616 MDT [10612] LOG:  all server processes terminated; reinitializing
+2019-05-05 02:07:38.640 MDT [7220] LOG:  database system was interrupted; last known up at 2019-05-05 02:07:36 MDT
+2019-05-05 02:07:38.828 MDT [7220] LOG:  database system was not properly shut down; automatic recovery in progress
+2019-05-05 02:07:38.833 MDT [7220] LOG:  invalid record length at 0/1628770: wanted 24, got 0
+2019-05-05 02:07:38.833 MDT [7220] LOG:  redo is not required
+2019-05-05 02:07:38.881 MDT [10612] LOG:  database system is ready to accept connections
+2019-05-05 02:07:40.004 MDT [10612] LOG:  background writer process (PID 9792) exited with exit code 1
+2019-05-05 02:07:40.004 MDT [10612] LOG:  terminating any other active server processes
+2019-05-05 02:07:40.005 MDT [8528] WARNING:  terminating connection because of crash of another server process
+2019-05-05 02:07:40.005 MDT [8528] DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2019-05-05 02:07:40.005 MDT [8528] HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2019-05-05 02:07:40.020 MDT [10612] LOG:  all server processes terminated; reinitializing
+2019-05-05 02:07:40.046 MDT [7948] LOG:  database system was interrupted; last known up at 2019-05-05 02:07:38 MDT
+2019-05-05 02:07:40.234 MDT [7948] LOG:  database system was not properly shut down; automatic recovery in progress
+2019-05-05 02:07:40.239 MDT [7948] LOG:  invalid record length at 0/16287E0: wanted 24, got 0
+2019-05-05 02:07:40.239 MDT [7948] LOG:  redo is not required
+2019-05-05 02:07:40.276 MDT [10612] LOG:  database system is ready to accept connections

@@ -1,0 +1,86 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>Cache - </title>
+<link rel="stylesheet" href="../../style.css">
+</HEAD>
+<BODY>
+<a href="../index.html">com.lightningkite.kommon.collection</a>&nbsp;/&nbsp;<a href="./index.html">Cache</a><br/>
+<br/>
+<h1>Cache</h1>
+<code><span class="keyword">open</span> <span class="keyword">class </span><span class="identifier">Cache</span><span class="symbol">&lt;</span><span class="identifier">K</span><span class="symbol">, </span><span class="identifier">V</span><span class="symbol">&gt;</span>&nbsp;<span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-mutable-map/index.html"><span class="identifier">MutableMap</span></a><span class="symbol">&lt;</span><a href="index.html#K"><span class="identifier">K</span></a><span class="symbol">,</span>&nbsp;<a href="index.html#V"><span class="identifier">V</span></a><span class="symbol">&gt;</span></code>
+<p>A <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-mutable-map/index.html">MutableMap</a> that always returns a value, where when one value has no entry, it is generated using <a href="generate.html">generate</a>.</p>
+<p>Created by josep on 2/12/2016.</p>
+<h3>Constructors</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="-init-.html">&lt;init&gt;</a></p>
+</td>
+<td>
+<code><span class="identifier">Cache</span><span class="symbol">(</span><span class="identifier" id="com.lightningkite.kommon.collection.Cache$<init>(kotlin.collections.MutableMap((com.lightningkite.kommon.collection.Cache.K, com.lightningkite.kommon.collection.Cache.V)), kotlin.Function1((com.lightningkite.kommon.collection.Cache.K, com.lightningkite.kommon.collection.Cache.V)))/map">map</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-mutable-map/index.html"><span class="identifier">MutableMap</span></a><span class="symbol">&lt;</span><a href="index.html#K"><span class="identifier">K</span></a><span class="symbol">,</span>&nbsp;<a href="index.html#V"><span class="identifier">V</span></a><span class="symbol">&gt;</span>&nbsp;<span class="symbol">=</span>&nbsp;mutableMapOf()<span class="symbol">, </span><span class="identifier" id="com.lightningkite.kommon.collection.Cache$<init>(kotlin.collections.MutableMap((com.lightningkite.kommon.collection.Cache.K, com.lightningkite.kommon.collection.Cache.V)), kotlin.Function1((com.lightningkite.kommon.collection.Cache.K, com.lightningkite.kommon.collection.Cache.V)))/generate">generate</span><span class="symbol">:</span>&nbsp;<span class="symbol">(</span><a href="index.html#K"><span class="identifier">K</span></a><span class="symbol">)</span>&nbsp;<span class="symbol">-&gt;</span>&nbsp;<a href="index.html#V"><span class="identifier">V</span></a><span class="symbol">)</span></code>
+<p>A <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-mutable-map/index.html">MutableMap</a> that always returns a value, where when one value has no entry, it is generated using <a href="generate.html">generate</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h3>Properties</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="generate.html">generate</a></p>
+</td>
+<td>
+<code><span class="keyword">val </span><span class="identifier">generate</span><span class="symbol">: </span><span class="symbol">(</span><a href="index.html#K"><span class="identifier">K</span></a><span class="symbol">)</span>&nbsp;<span class="symbol">-&gt;</span>&nbsp;<a href="index.html#V"><span class="identifier">V</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="map.html">map</a></p>
+</td>
+<td>
+<code><span class="keyword">val </span><span class="identifier">map</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-mutable-map/index.html"><span class="identifier">MutableMap</span></a><span class="symbol">&lt;</span><a href="index.html#K"><span class="identifier">K</span></a><span class="symbol">,</span>&nbsp;<a href="index.html#V"><span class="identifier">V</span></a><span class="symbol">&gt;</span></code></td>
+</tr>
+</tbody>
+</table>
+<h3>Functions</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="get.html">get</a></p>
+</td>
+<td>
+<code><span class="keyword">open</span> <span class="keyword">fun </span><span class="identifier">get</span><span class="symbol">(</span><span class="identifier" id="com.lightningkite.kommon.collection.Cache$get(com.lightningkite.kommon.collection.Cache.K)/key">key</span><span class="symbol">:</span>&nbsp;<a href="index.html#K"><span class="identifier">K</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="index.html#V"><span class="identifier">V</span></a></code></td>
+</tr>
+</tbody>
+</table>
+<h3>Extension Properties</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="../../com.lightningkite.kommon.native/kotlin.-any/is-frozen.html">isFrozen</a><br/>
+(Native, NonNative)</p>
+</td>
+<td>
+<code><span class="keyword">expect</span> <span class="keyword">val </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html"><span class="identifier">Any</span></a><span class="symbol">.</span><span class="identifier">isFrozen</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a></code></td>
+</tr>
+</tbody>
+</table>
+<h3>Extension Functions</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="../../com.lightningkite.kommon.native/kotlin.-any/ensure-never-frozen.html">ensureNeverFrozen</a><br/>
+(Native, NonNative)</p>
+</td>
+<td>
+<code><span class="keyword">expect</span> <span class="keyword">fun </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html"><span class="identifier">Any</span></a><span class="symbol">.</span><span class="identifier">ensureNeverFrozen</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+</tbody>
+</table>
+</BODY>
+</HTML>

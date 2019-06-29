@@ -1,0 +1,165 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>com.lightningkite.kommon.collection - </title>
+<link rel="stylesheet" href="../style.css">
+</HEAD>
+<BODY>
+<a href="./index.html">com.lightningkite.kommon.collection</a><br/>
+<br/>
+<h2>Package com.lightningkite.kommon.collection</h2>
+<h3>Types</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="-cache/index.html">Cache</a></p>
+</td>
+<td>
+<code><span class="keyword">open</span> <span class="keyword">class </span><span class="identifier">Cache</span><span class="symbol">&lt;</span><span class="identifier">K</span><span class="symbol">, </span><span class="identifier">V</span><span class="symbol">&gt;</span>&nbsp;<span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-mutable-map/index.html"><span class="identifier">MutableMap</span></a><span class="symbol">&lt;</span><a href="-cache/index.html#K"><span class="identifier">K</span></a><span class="symbol">,</span>&nbsp;<a href="-cache/index.html#V"><span class="identifier">V</span></a><span class="symbol">&gt;</span></code>
+<p>A <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-mutable-map/index.html">MutableMap</a> that always returns a value, where when one value has no entry, it is generated using <a href="-cache/generate.html">generate</a>.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="-concurrent-hash-map/index.html">ConcurrentHashMap</a></p>
+</td>
+<td>
+<code><span class="keyword">expect</span> <span class="keyword">class </span><span class="identifier">ConcurrentHashMap</span><span class="symbol">&lt;</span><span class="identifier">K</span><span class="symbol">, </span><span class="identifier">V</span><span class="symbol">&gt;</span>&nbsp;<span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-mutable-map/index.html"><span class="identifier">MutableMap</span></a><span class="symbol">&lt;</span><a href="-concurrent-hash-map/-concurrent-hash-map.html#K"><span class="identifier">K</span></a><span class="symbol">,</span>&nbsp;<a href="-concurrent-hash-map/-concurrent-hash-map.html#V"><span class="identifier">V</span></a><span class="symbol">&gt;</span></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="-sorted-set/index.html">SortedSet</a><br/>
+(Js)</p>
+</td>
+<td>
+<code><span class="keyword">expect</span> <span class="keyword">class </span><span class="identifier">SortedSet</span><span class="symbol">&lt;</span><span class="identifier">E</span><span class="symbol">&gt;</span>&nbsp;<span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-mutable-set/index.html"><span class="identifier">MutableSet</span></a><span class="symbol">&lt;</span><a href="-sorted-set/-sorted-set.html#E"><span class="identifier">E</span></a><span class="symbol">&gt;</span></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="-tree-walk-breadth-iterator/index.html">TreeWalkBreadthIterator</a></p>
+</td>
+<td>
+<code><span class="keyword">class </span><span class="identifier">TreeWalkBreadthIterator</span><span class="symbol">&lt;</span><span class="identifier">T</span><span class="symbol">&gt;</span>&nbsp;<span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-iterator/index.html"><span class="identifier">Iterator</span></a><span class="symbol">&lt;</span><a href="-tree-walk-breadth-iterator/index.html#T"><span class="identifier">T</span></a><span class="symbol">&gt;</span></code>
+<p>Creates a recursive iterator, breadth first.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="-tree-walk-depth-iterator/index.html">TreeWalkDepthIterator</a></p>
+</td>
+<td>
+<code><span class="keyword">class </span><span class="identifier">TreeWalkDepthIterator</span><span class="symbol">&lt;</span><span class="identifier">T</span><span class="symbol">&gt;</span>&nbsp;<span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-iterator/index.html"><span class="identifier">Iterator</span></a><span class="symbol">&lt;</span><a href="-tree-walk-depth-iterator/index.html#T"><span class="identifier">T</span></a><span class="symbol">&gt;</span></code>
+<p>Creates a recursive iterator, depth first.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="-weak-hash-map/index.html">WeakHashMap</a></p>
+</td>
+<td>
+<code><span class="keyword">class </span><span class="identifier">UnderlyingKey</span><span class="symbol">&lt;</span><span class="identifier">K</span>&nbsp;<span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html"><span class="identifier">Any</span></a><span class="symbol">&gt;</span></code><br/>
+<code><span class="keyword">expect</span> <span class="keyword">class </span><span class="identifier">WeakHashMap</span><span class="symbol">&lt;</span><span class="identifier">K</span>&nbsp;<span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html"><span class="identifier">Any</span></a><span class="symbol">, </span><span class="identifier">V</span><span class="symbol">&gt;</span>&nbsp;<span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-mutable-map/index.html"><span class="identifier">MutableMap</span></a><span class="symbol">&lt;</span><a href="-weak-hash-map/-weak-hash-map.html#K"><span class="identifier">K</span></a><span class="symbol">,</span>&nbsp;<a href="-weak-hash-map/-weak-hash-map.html#V"><span class="identifier">V</span></a><span class="symbol">&gt;</span></code></td>
+</tr>
+</tbody>
+</table>
+<h3>Type Aliases</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="-concurrent-hash-map/index.html">ConcurrentHashMap</a><br/>
+(Js)</p>
+</td>
+<td>
+<code><span class="keyword">actual</span> <span class="keyword">typealias </span><span class="identifier">ConcurrentHashMap</span><span class="symbol">&lt;</span><span class="identifier">K</span><span class="symbol">, </span><span class="identifier">V</span><span class="symbol">&gt;</span>&nbsp;<span class="symbol">=</span>&nbsp;<span class="identifier">&lt;ERROR CLASS&gt;</span><span class="symbol">&lt;</span><a href="-concurrent-hash-map/-concurrent-hash-map.html#K"><span class="identifier">K</span></a><span class="symbol">,</span>&nbsp;<a href="-concurrent-hash-map/-concurrent-hash-map.html#V"><span class="identifier">V</span></a><span class="symbol">&gt;</span></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="-sorted-set/index.html">SortedSet</a><br/>
+(Jvm)</p>
+</td>
+<td>
+<code><span class="keyword">actual</span> <span class="keyword">typealias </span><span class="identifier">SortedSet</span><span class="symbol">&lt;</span><span class="identifier">E</span><span class="symbol">&gt;</span>&nbsp;<span class="symbol">=</span>&nbsp;<a href="http://docs.oracle.com/javase/6/docs/api/java/util/TreeSet.html"><span class="identifier">TreeSet</span></a><span class="symbol">&lt;</span><a href="-sorted-set/-sorted-set.html#E"><span class="identifier">E</span></a><span class="symbol">&gt;</span></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="-weak-hash-map/index.html">WeakHashMap</a><br/>
+(Jvm)</p>
+</td>
+<td>
+<code><span class="keyword">actual</span> <span class="keyword">typealias </span><span class="identifier">WeakHashMap</span><span class="symbol">&lt;</span><span class="identifier">K</span><span class="symbol">, </span><span class="identifier">V</span><span class="symbol">&gt;</span>&nbsp;<span class="symbol">=</span>&nbsp;<a href="http://docs.oracle.com/javase/6/docs/api/java/util/WeakHashMap.html"><span class="identifier">WeakHashMap</span></a><span class="symbol">&lt;</span><a href="-weak-hash-map/-weak-hash-map.html#K"><span class="identifier">K</span></a><span class="symbol">,</span>&nbsp;<a href="-weak-hash-map/-weak-hash-map.html#V"><span class="identifier">V</span></a><span class="symbol">&gt;</span></code></td>
+</tr>
+</tbody>
+</table>
+<h3>Extensions for External Classes</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="kotlin.collections.-collection/index.html">kotlin.collections.Collection</a></p>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="kotlin.collections.-iterable/index.html">kotlin.collections.Iterable</a></p>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="kotlin.collections.-mutable-list/index.html">kotlin.collections.MutableList</a></p>
+</td>
+<td>
+</td>
+</tr>
+</tbody>
+</table>
+<h3>Properties</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="-weak-hash-map_-ids.html">WeakHashMap_Ids</a><br/>
+(Js)</p>
+</td>
+<td>
+<code><span class="keyword">var </span><span class="identifier">WeakHashMap_Ids</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a></code></td>
+</tr>
+</tbody>
+</table>
+<h3>Functions</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="clean.html">clean</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><a href="-weak-hash-map/index.html"><span class="identifier">WeakHashMap</span></a><span class="symbol">&lt;</span><span class="identifier">*</span><span class="symbol">,</span>&nbsp;<span class="identifier">*</span><span class="symbol">&gt;</span><span class="symbol">.</span><span class="identifier">clean</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="tree-walk-breadth-sequence.html">treeWalkBreadthSequence</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="symbol">&lt;</span><span class="identifier">T</span><span class="symbol">&gt;</span> <span class="identifier">&lt;ERROR CLASS&gt;</span><span class="symbol">&lt;</span><a href="tree-walk-breadth-sequence.html#T"><span class="identifier">T</span></a><span class="symbol">&gt;</span><span class="symbol">.</span><span class="identifier">treeWalkBreadthSequence</span><span class="symbol">(</span><span class="identifier" id="com.lightningkite.kommon.collection$treeWalkBreadthSequence(((com.lightningkite.kommon.collection.treeWalkBreadthSequence.T)), kotlin.Function1((com.lightningkite.kommon.collection.treeWalkBreadthSequence.T, (()))))/getter">getter</span><span class="symbol">:</span>&nbsp;<span class="symbol">(</span><a href="tree-walk-breadth-sequence.html#T"><span class="identifier">T</span></a><span class="symbol">)</span>&nbsp;<span class="symbol">-&gt;</span>&nbsp;<span class="identifier">&lt;ERROR CLASS&gt;</span><span class="symbol">&lt;</span><a href="tree-walk-breadth-sequence.html#T"><span class="identifier">T</span></a><span class="symbol">&gt;</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html"><span class="identifier">Any</span></a></code>
+<p>Creates a recursive sequence, breadth first.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="tree-walk-depth-sequence.html">treeWalkDepthSequence</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="symbol">&lt;</span><span class="identifier">T</span><span class="symbol">&gt;</span> <span class="identifier">&lt;ERROR CLASS&gt;</span><span class="symbol">&lt;</span><a href="tree-walk-depth-sequence.html#T"><span class="identifier">T</span></a><span class="symbol">&gt;</span><span class="symbol">.</span><span class="identifier">treeWalkDepthSequence</span><span class="symbol">(</span><span class="identifier" id="com.lightningkite.kommon.collection$treeWalkDepthSequence(((com.lightningkite.kommon.collection.treeWalkDepthSequence.T)), kotlin.Function1((com.lightningkite.kommon.collection.treeWalkDepthSequence.T, (()))))/getter">getter</span><span class="symbol">:</span>&nbsp;<span class="symbol">(</span><a href="tree-walk-depth-sequence.html#T"><span class="identifier">T</span></a><span class="symbol">)</span>&nbsp;<span class="symbol">-&gt;</span>&nbsp;<span class="identifier">&lt;ERROR CLASS&gt;</span><span class="symbol">&lt;</span><a href="tree-walk-depth-sequence.html#T"><span class="identifier">T</span></a><span class="symbol">&gt;</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html"><span class="identifier">Any</span></a></code>
+<p>Creates a recursive sequence, depth first.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</BODY>
+</HTML>
