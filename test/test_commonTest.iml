@@ -22,7 +22,7 @@
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$/src/commonTest">
-      <sourceFolder url="file://$MODULE_DIR$/src/commonTest/kotlin" type="kotlin-test" />
+      <sourceFolder url="file://$MODULE_DIR$/src/commonTest/kotlin" isTestSource="true" />
     </content>
     <orderEntry type="jdk" jdkName="Kotlin SDK" jdkType="KotlinSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
