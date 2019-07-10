@@ -3,8 +3,8 @@ import org.jetbrains.kotlin.gradle.plugin.KotlinPlatformType
 import java.util.*
 
 plugins {
-    id("com.android.application") version "3.3.1"
-    kotlin("multiplatform") version "1.3.21"
+    id("com.android.application") //version "3.3.1"
+    kotlin("multiplatform")
 //    kotlin("dce-js") version "1.3.21"
 //    id("org.jetbrains.kotlin.frontend") version "0.0.45"
     `maven-publish`
