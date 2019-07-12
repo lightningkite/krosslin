@@ -5,8 +5,8 @@
       <configuration version="3" platform="JVM 1.6" useProjectSettings="false" isTestModule="true" externalProjectId=":test">
         <sourceSets>
           <sourceSet>com.lightningkite.test.javafxMain</sourceSet>
-          <sourceSet>com.lightningkite.test.commonMain</sourceSet>
           <sourceSet>com.lightningkite.test.commonTest</sourceSet>
+          <sourceSet>com.lightningkite.test.commonMain</sourceSet>
         </sourceSets>
         <newMppModelJpsModuleKind>COMPILATION_AND_SOURCE_SET_HOLDER</newMppModelJpsModuleKind>
         <compilerSettings>
