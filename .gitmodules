@@ -25,3 +25,6 @@
 [submodule "koolui"]
 	path = koolui
 	url = https://github.com/lightningkite/koolui.git
+[submodule "kabinet"]
+	path = kabinet
+	url = https://github.com/lightningkite/kabinet.git

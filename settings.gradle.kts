@@ -48,6 +48,11 @@ project(":koolui").projectDir = file("koolui/koolui")
 include("koolui-test")
 project(":koolui-test").projectDir = file("koolui/koolui-test")
 
+include("kabinet-api")
+project(":kabinet-api").projectDir = file("kabinet/kabinet-api")
+include("kabinet-s3")
+project(":kabinet-s3").projectDir = file("kabinet/kabinet-s3")
+
 include("mirror-form")
 include("test")
 

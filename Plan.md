@@ -1,19 +1,16 @@
 # Plan
 
-- [ ] Table Serializer
-- [ ] Postgres
-- [ ] Redis
-- [ ] InfluxDB
-- [ ] Database Users and Password Hashing
-- [ ] Database Requests
-- [ ] Database Registry
-    - [ ] References and handling
-    - [ ] Reverse?
-- [ ] Mirror Form
-    - [ ] Request (run button)
-    - [ ] Edit Map
-    - [ ] Database
-- [ ] Base64 binary in serializer
+- [X] KoolUI - General Error Handler (for crash reporting)
+- [X] Server health checks
+- [ ] Image Upload
+- [ ] Postgres Indexes
+- [ ] Quick Deployment  
+
+
+- [ ] 'View' data classes for databases - allow you to query and such with SQL's views as opposed to making a new table
+- [ ] Get subgraph
+
+
 - [ ] Reference-loop handling serializer
 - [ ] iOS layouts
 - [ ] Improved JSON debugging
@@ -32,23 +29,3 @@
     - [ ] Server can accept requests for updates
     - [ ] Server can send updates out to those listening (multiple servers)
     - [ ] Server can handle stopping updates
-
-# What am I working towards?
-
-Library Releases
-
-- Kommon
-- Recktangle
-- Lokalize - add currencies and units?
-- Kommunicate
-- Reacktive
-- Mirror Kotlin
-
-Task management requires:
-
-- Working DB stuff
-- iOS UI
-- Users
-- Template Project
-- Mirror Form for DBs
-- Local DB?
