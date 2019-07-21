@@ -29,3 +29,14 @@
     - [ ] Server can accept requests for updates
     - [ ] Server can send updates out to those listening (multiple servers)
     - [ ] Server can handle stopping updates
+
+
+CANVAS
+
+- Single draw instruction at a time
+    - move
+    - line
+    - curve
+    - setPaint
+    - clearRect
+    - drawImage

@@ -1,5 +1,11 @@
 # Ideas
 
+- Upload bigger files to store in a database along with a request
+    - Option: in request, multipart with name overrides empty byte array
+    - Option: in request, multipart with name overrides special holder type 'file', which ends up as just a file reference in temp, maxing out at x size 
+        - File reference directly?
+        - URL: `temp://file.gif` - this might work really really well, but it's not explicit
+- Bring back Kommunicate with iOS websockets
 - Part of database interface: `status()`, which returns the status of the DB with information like usage, capacity, etc
 - Observe over a network through web sockets
 - Stackview on larger screens shows multiple

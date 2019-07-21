@@ -4,9 +4,9 @@
     <facet type="kotlin-language" name="Kotlin">
       <configuration version="3" platform="Native " useProjectSettings="false" isTestModule="true" externalProjectId=":test">
         <sourceSets>
-          <sourceSet>test_commonTest</sourceSet>
-          <sourceSet>test_iosArm64Main</sourceSet>
           <sourceSet>test_commonMain</sourceSet>
+          <sourceSet>test_iosArm64Main</sourceSet>
+          <sourceSet>test_commonTest</sourceSet>
         </sourceSets>
         <newMppModelJpsModuleKind>COMPILATION_AND_SOURCE_SET_HOLDER</newMppModelJpsModuleKind>
         <compilerSettings />
@@ -64,9 +64,9 @@
     <orderEntry type="library" scope="TEST" name="Gradle: io.ktor:ktor-client-core:1.2.2" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlinx:kotlinx-serialization-runtime-common:0.11.1" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core-common:1.2.2" level="project" />
-    <orderEntry type="module" module-name="test_commonMain" scope="TEST" />
-    <orderEntry type="module" module-name="test_iosArm64Main" scope="TEST" />
     <orderEntry type="module" module-name="test_commonTest" scope="TEST" production-on-test="" />
+    <orderEntry type="module" module-name="test_iosArm64Main" scope="TEST" />
+    <orderEntry type="module" module-name="test_commonMain" scope="TEST" />
     <orderEntry type="module" module-name="mirror-form_commonMain" scope="TEST" />
     <orderEntry type="module" module-name="koolui_commonMain" scope="TEST" />
     <orderEntry type="module" module-name="mirror-archive-api_commonMain" scope="TEST" />
