@@ -4,9 +4,9 @@
     <facet type="kotlin-language" name="Kotlin">
       <configuration version="3" platform="JavaScript " useProjectSettings="false" isTestModule="true" externalProjectId=":test">
         <sourceSets>
+          <sourceSet>test_commonTest</sourceSet>
           <sourceSet>test_jsMain</sourceSet>
           <sourceSet>test_commonMain</sourceSet>
-          <sourceSet>test_commonTest</sourceSet>
         </sourceSets>
         <newMppModelJpsModuleKind>COMPILATION_AND_SOURCE_SET_HOLDER</newMppModelJpsModuleKind>
         <testOutputPath>$MODULE_DIR$/build/classes/kotlin/js/test/test_test.js</testOutputPath>
@@ -86,9 +86,9 @@
     <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-test-annotations-common:1.3.41" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-test-common:1.3.41" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core-common:1.2.2" level="project" />
-    <orderEntry type="module" module-name="test_commonTest" scope="TEST" production-on-test="" />
     <orderEntry type="module" module-name="test_commonMain" scope="TEST" />
     <orderEntry type="module" module-name="test_jsMain" scope="TEST" />
+    <orderEntry type="module" module-name="test_commonTest" scope="TEST" production-on-test="" />
     <orderEntry type="module" module-name="mirror-form_commonMain" scope="TEST" />
     <orderEntry type="module" module-name="mirror-form_jsMain" scope="TEST" />
     <orderEntry type="module" module-name="koolui_commonMain" scope="TEST" />

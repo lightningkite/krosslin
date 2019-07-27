@@ -5,8 +5,8 @@
       <configuration version="3" platform="JVM 1.6" useProjectSettings="false" isTestModule="true" externalProjectId=":test">
         <sourceSets>
           <sourceSet>test_jvmServerMain</sourceSet>
-          <sourceSet>test_commonMain</sourceSet>
           <sourceSet>test_commonTest</sourceSet>
+          <sourceSet>test_commonMain</sourceSet>
         </sourceSets>
         <newMppModelJpsModuleKind>COMPILATION_AND_SOURCE_SET_HOLDER</newMppModelJpsModuleKind>
         <compilerSettings>
@@ -226,8 +226,8 @@
     <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-test-annotations-common:1.3.41" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-test-common:1.3.41" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core-common:1.2.2" level="project" />
-    <orderEntry type="module" module-name="test_commonTest" scope="TEST" production-on-test="" />
     <orderEntry type="module" module-name="test_commonMain" scope="TEST" />
+    <orderEntry type="module" module-name="test_commonTest" scope="TEST" production-on-test="" />
     <orderEntry type="module" module-name="test_jvmServerMain" scope="TEST" />
     <orderEntry type="module" module-name="mirror-archive-server_commonMain" scope="TEST" />
     <orderEntry type="module" module-name="mirror-archive-server_jvmMain" scope="TEST" />

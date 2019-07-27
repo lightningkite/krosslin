@@ -1,30 +1,92 @@
 # Ideas
 
-- Upload bigger files to store in a database along with a request
-    - Option: in request, multipart with name overrides empty byte array
+- KoolUI iOS
+    - SVG support
+    - Location support
+- KoolUI/Kabinet File Handling`
+    - `interface DataHandle`
+        - `val type: MediaType`
+        - `val probableSize: Long`
+        - `suspend fun stream(range: LongRange): Input`
+    - `RemoteBlob` containing HTTP request info is valid
+    - `LocalBlob` containing stream is also valid, via the below
+    - Database `tweak` can upload the file
+    - Readable streams using KotlinX IO
+    - Serialization for Stream
+        - Serialize as UUID
+        - Add to `@ThreadLocal` scoped serialization
+        - Within scope you can retrieve by UUID
+        - Send as part of the request
+    - Deserialization for Stream
+        - Gather UUIDs, placing in `@ThreadLocal` scoped deserialization
+        - Return `Input` that reads UUID file in a temp directory
+        - Inputs only available within scope, files deleted afterwards
+- Upload files along with requests
+    - Needs
     - Option: in request, multipart with name overrides special holder type 'file', which ends up as just a file reference in temp, maxing out at x size 
         - File reference directly?
         - URL: `temp://file.gif` - this might work really really well, but it's not explicit
-- Bring back Kommunicate with iOS websockets
+        - `inline class FileReference(val path: String)`
+            - Serialize
+- Postgres Indexes and Better Migrations (?)
+    - Auto-migrate?
+        - Efficiency boost by doing same op on all objects if default value is constant
+        - If default value is computed, we'll have to run it an object at a time.
+        - Alternately, lazy compute it - make the queries compensate for it?
+    - Manual migrations?
+- Notifications
+    - FCM on iOS
+    - FCM on Web
+- System Control
+    - Issue tracking
+    - Statistical tracking
+    - Spinning up whole new apps using AWS (or other things?)
+    - Server health checks, including 'overloaded' health checks
+- SQLite (Android)
+- SQLite (iOS)
+- SQLite (JVM)
+- IndexedDB (JS)
+- Kommunicate
+    - iOS Sockets
+    - Simpler
+    - Needs file handles
+- Server Observables
+    - Client can request updates
+    - Client can receive updates
+    - Client can stop receiving updates
+    - Server can accept requests for updates
+    - Server can send updates out to those listening (multiple servers)
+    - Server can handle stopping updates
+- KoolUI Lanterna Output
+- KoolUI GTK+ Output
+- Database Subgraph Retrieval
+    - Request with reference paths to return
+- REST Database Support
+    - Server serving RESTful
+    - Client reading RESTful
+- GraphQL Database Support
+    - Server serving GraphQL
+    - Client reading GraphQL
+- 'View' data classes for databases
+    - Allow you to query and such with SQL's views as opposed to making a new table
+    - Fixes DB normalization issues
+- Reference-loop handling serializer
+- Canvas for KoolUI
+    - Single draw instruction at a time
+        - matrix
+        - move
+        - line
+        - curve
+        - setPaint
+        - clearRect
+        - drawImage
+        - text
+- Synced Database
+    - Takes local DB and remote DB, syncing them and using what's available so it works
 - Part of database interface: `status()`, which returns the status of the DB with information like usage, capacity, etc
-- Observe over a network through web sockets
-- Stackview on larger screens shows multiple
+- View multiple parts of a view stack at the same time on larger devices
+    - `data class ListPosition(val list: MutableList<T>, val index: Int)`
+        - `popToThis()`
+        - `pushFromThis()`
+        - `popFromThis()`
 - KoolUI OpenGL view
-
-Let's step back to actual use of databases.
-
-Goals:
-- Store a collection of objects
-- Store quick, temporary settings - pairs, I suppose, requires PK to be changeable
-- Transfer graphs of objects
-- Semi-Partial queries
-
-Database
-- Put
-- Query
-- Delete
-- Modify
-
-
-
-Top layer margin - 16 - half each step down when using frame()
