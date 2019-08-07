@@ -4,9 +4,9 @@
     <facet type="kotlin-language" name="Kotlin">
       <configuration version="3" platform="Native " useProjectSettings="false" isTestModule="true" externalProjectId=":test">
         <sourceSets>
-          <sourceSet>test_commonTest</sourceSet>
           <sourceSet>test_iosArm64Main</sourceSet>
           <sourceSet>test_commonMain</sourceSet>
+          <sourceSet>test_commonTest</sourceSet>
         </sourceSets>
         <newMppModelJpsModuleKind>COMPILATION_AND_SOURCE_SET_HOLDER</newMppModelJpsModuleKind>
         <compilerSettings />
@@ -32,6 +32,9 @@
     <content url="file://$MODULE_DIR$/src/iosArm64Test" />
     <orderEntry type="jdk" jdkName="Kotlin SDK" jdkType="KotlinSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlinx:atomicfu-common:0.12.9" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-io:0.1.10" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlinx:kotlinx-io:0.1.10" level="project" />
     <orderEntry type="module-library" scope="TEST">
       <library name="Gradle: io.ktor:ktor-utils:1.2.2">
         <CLASSES>
@@ -43,13 +46,14 @@
         </SOURCES>
       </library>
     </orderEntry>
-    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlinx:atomicfu-common:0.12.9" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.3.41" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: io.ktor:ktor-http-cio:1.2.2" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: io.ktor:ktor-http:1.2.2" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-io:0.1.10" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlinx:atomicfu:0.12.9" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlinx:kotlinx-io:0.1.10" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.3.41" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlinx:kotlinx-io:0.1.13-1.3.50-eap-5" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlinx:atomicfu-common:0.12.9-1.3.50-eap-5" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.3.50-eap-5" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core-common:1.2.2" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-test-annotations-common:1.3.41" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-test-common:1.3.41" level="project" />
     <orderEntry type="module-library" scope="TEST">
@@ -62,11 +66,12 @@
       </library>
     </orderEntry>
     <orderEntry type="library" scope="TEST" name="Gradle: io.ktor:ktor-client-core:1.2.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-io:0.1.13-1.3.50-eap-5" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlinx:kotlinx-serialization-runtime-common:0.11.1" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core-common:1.2.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core-common:1.3.0-RC-1.3.50-eap-5" level="project" />
+    <orderEntry type="module" module-name="test_commonTest" scope="TEST" production-on-test="" />
     <orderEntry type="module" module-name="test_commonMain" scope="TEST" />
     <orderEntry type="module" module-name="test_iosArm64Main" scope="TEST" />
-    <orderEntry type="module" module-name="test_commonTest" scope="TEST" production-on-test="" />
     <orderEntry type="module" module-name="mirror-form_commonMain" scope="TEST" />
     <orderEntry type="module" module-name="koolui_commonMain" scope="TEST" />
     <orderEntry type="module" module-name="mirror-archive-api_commonMain" scope="TEST" />
@@ -74,7 +79,7 @@
     <orderEntry type="module" module-name="mirror-runtime_commonMain" scope="TEST" />
     <orderEntry type="module" module-name="recktangle_commonMain" scope="TEST" />
     <orderEntry type="module" module-name="reacktive_commonMain" scope="TEST" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.41 - stdlib" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.50-eap-5 - stdlib" level="project" />
     <orderEntry type="module" module-name="lokalize_commonMain" scope="TEST" />
     <orderEntry type="module" module-name="kommon_commonMain" scope="TEST" />
   </component>
