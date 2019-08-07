@@ -30,11 +30,11 @@ CALL :Subcopy "mirror-archive\mirror-archive-influxdb"
 CALL :Subcopy "mirror-archive\mirror-archive-redis"
 CALL :Subcopy "mirror-form"
 CALL :Subcopy "test"
+CALL :Subcopy "kabinet/kabinet-api"
+CALL :Subcopy "kabinet/kabinet-s3"
 EXIT /B %ERRORLEVEL%
 
 :Subcopy
 echo For %~1%
 copy /y ".\versions.properties" ".\%~1%\versions.properties"
-copy /y ".\gradle\pom.gradle" ".\%~1%\gradle\pom.gradle"
-copy /y ".\gradle\publish.gradle" ".\%~1%\gradle\publish.gradle"
 EXIT /B 0
