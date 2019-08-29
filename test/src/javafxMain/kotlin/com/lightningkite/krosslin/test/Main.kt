@@ -2,10 +2,9 @@ package com.lightningkite.krosslin.test
 
 import com.lightningkite.koolui.color.*
 import com.lightningkite.koolui.views.*
-import com.lightningkite.koolui.builders.*
 import com.lightningkite.koolui.*
+import com.lightningkite.koolui.views.root.contentRoot
 import javafx.application.Application
-import javafx.application.Platform
 import javafx.scene.Node
 import javafx.scene.Parent
 import javafx.scene.Scene

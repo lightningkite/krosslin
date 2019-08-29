@@ -2,7 +2,7 @@
 <module external.linked.project.id=":test:commonTest" external.linked.project.path="$MODULE_DIR$" external.root.project.path="$MODULE_DIR$/.." external.system.id="GRADLE" external.system.module.group="com.lightningkite" external.system.module.type="sourceSet" external.system.module.version="0.0.1" type="JAVA_MODULE" version="4">
   <component name="FacetManager">
     <facet type="kotlin-language" name="Kotlin">
-      <configuration version="3" platform="Common (experimental) " useProjectSettings="false" isTestModule="true" externalProjectId=":test">
+      <configuration version="3" platform="Common (experimental) " allPlatforms="JVM [1.6]/JS []/Native []" useProjectSettings="false" isTestModule="true" externalProjectId=":test">
         <newMppModelJpsModuleKind>SOURCE_SET_HOLDER</newMppModelJpsModuleKind>
         <compilerSettings />
         <compilerArguments>
@@ -36,17 +36,7 @@
     <orderEntry type="jdk" jdkName="Kotlin SDK" jdkType="KotlinSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="test_commonMain" scope="TEST" />
-    <orderEntry type="module-library" scope="TEST">
-      <library name="Gradle: io.ktor:ktor-utils:1.2.2">
-        <CLASSES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-utils/1.2.2/3da5e661eeb984d7f0900cc767770009121ea3a/ktor-utils-1.2.2.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-utils/1.2.2/6b9f9a3882344706998e33bc2209a28a061e82bd/ktor-utils-1.2.2-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
+    <orderEntry type="library" scope="TEST" name="Gradle: io.ktor:ktor-utils:1.2.2" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlinx:atomicfu-common:0.12.9" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: io.ktor:ktor-http-cio:1.2.2" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: io.ktor:ktor-http:1.2.2" level="project" />

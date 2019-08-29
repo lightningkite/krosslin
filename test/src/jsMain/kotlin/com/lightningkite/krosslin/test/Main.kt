@@ -3,11 +3,8 @@ package com.lightningkite.krosslin.test
 import com.lightningkite.koolui.color.*
 import com.lightningkite.koolui.views.*
 import com.lightningkite.koolui.builders.*
-import com.lightningkite.koolui.*
-import com.lightningkite.krosslin.test.MainVG
-import com.lightningkite.krosslin.test.MyViewFactory
+import com.lightningkite.koolui.views.root.contentRoot
 import org.w3c.dom.HTMLElement
-import org.w3c.dom.get
 import kotlin.browser.document
 import kotlin.browser.window
 

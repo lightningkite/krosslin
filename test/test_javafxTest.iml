@@ -2,11 +2,11 @@
 <module external.linked.project.id=":test:javafxTest" external.linked.project.path="$MODULE_DIR$" external.root.project.path="$MODULE_DIR$/.." external.system.id="GRADLE" external.system.module.group="com.lightningkite" external.system.module.type="sourceSet" external.system.module.version="0.0.1" type="JAVA_MODULE" version="4">
   <component name="FacetManager">
     <facet type="kotlin-language" name="Kotlin">
-      <configuration version="3" platform="JVM 1.6" useProjectSettings="false" isTestModule="true" externalProjectId=":test">
+      <configuration version="3" platform="JVM 1.6" allPlatforms="JVM [1.6]" useProjectSettings="false" isTestModule="true" externalProjectId=":test">
         <sourceSets>
           <sourceSet>test_commonMain</sourceSet>
-          <sourceSet>test_commonTest</sourceSet>
           <sourceSet>test_javafxMain</sourceSet>
+          <sourceSet>test_commonTest</sourceSet>
         </sourceSets>
         <newMppModelJpsModuleKind>COMPILATION_AND_SOURCE_SET_HOLDER</newMppModelJpsModuleKind>
         <compilerSettings>
@@ -69,28 +69,10 @@
     <orderEntry type="library" scope="TEST" name="Gradle: io.ktor:ktor-http-cio-jvm:1.2.2" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: io.ktor:ktor-http-jvm:1.2.2" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: io.ktor:ktor-network:1.2.2" level="project" />
-    <orderEntry type="module-library" scope="TEST">
-      <library name="Gradle: io.ktor:ktor-utils:1.2.2">
-        <CLASSES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-utils/1.2.2/3da5e661eeb984d7f0900cc767770009121ea3a/ktor-utils-1.2.2.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-utils/1.2.2/6b9f9a3882344706998e33bc2209a28a061e82bd/ktor-utils-1.2.2-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
+    <orderEntry type="library" scope="TEST" name="Gradle: io.ktor:ktor-utils:1.2.2" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlinx:atomicfu-common:0.12.9" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains:annotations:13.0" level="project" />
-    <orderEntry type="module-library" scope="TEST">
-      <library name="Gradle: org.hamcrest:hamcrest-core:1.3">
-        <CLASSES>
-          <root url="jar://$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
+    <orderEntry type="library" scope="TEST" name="Gradle: org.hamcrest:hamcrest-core:1.3" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.apache.xmlgraphics:batik-svggen:1.10" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.apache.xmlgraphics:batik-script:1.10" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.apache.xmlgraphics:batik-gvt:1.10" level="project" />
@@ -157,8 +139,8 @@
     <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-test-annotations-common:1.3.41" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-test-common:1.3.41" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core-common:1.2.2" level="project" />
-    <orderEntry type="module" module-name="test_javafxMain" scope="TEST" />
     <orderEntry type="module" module-name="test_commonTest" scope="TEST" production-on-test="" />
+    <orderEntry type="module" module-name="test_javafxMain" scope="TEST" />
     <orderEntry type="module" module-name="test_commonMain" scope="TEST" />
     <orderEntry type="module" module-name="mirror-form_commonMain" scope="TEST" />
     <orderEntry type="module" module-name="mirror-form_javafxMain" scope="TEST" />

@@ -2,7 +2,7 @@
 <module external.linked.project.id=":test:iosArm64Main" external.linked.project.path="$MODULE_DIR$" external.root.project.path="$MODULE_DIR$/.." external.system.id="GRADLE" external.system.module.group="com.lightningkite" external.system.module.type="sourceSet" external.system.module.version="0.0.1" type="JAVA_MODULE" version="4">
   <component name="FacetManager">
     <facet type="kotlin-language" name="Kotlin">
-      <configuration version="3" platform="Native " useProjectSettings="false" isTestModule="false" externalProjectId=":test">
+      <configuration version="3" platform="Native " allPlatforms="Native []" useProjectSettings="false" isTestModule="false" externalProjectId=":test">
         <sourceSets>
           <sourceSet>test_commonMain</sourceSet>
         </sourceSets>
@@ -30,8 +30,8 @@
     <content url="file://$MODULE_DIR$/src/iosArm64Main" />
     <orderEntry type="jdk" jdkName="Kotlin SDK" jdkType="KotlinSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="test_commonMain" />
-    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.3.50-eap-5" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-io:0.1.13-1.3.50-eap-5" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-io:0.1.13-1.3.50-eap-5" level="project" />
     <orderEntry type="module-library">
       <library>
         <CLASSES>
@@ -41,6 +41,13 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core-common:1.3.0-RC-1.3.50-eap-5" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:atomicfu-common:0.12.9-1.3.50-eap-5" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-http-cio:1.2.2" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-http:1.2.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:atomicfu:0.12.9" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-serialization-runtime-common:0.11.1" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-client-core:1.2.2" level="project" />
     <orderEntry type="module-library">
       <library name="Gradle: io.ktor:ktor-utils:1.2.2">
         <CLASSES>
@@ -52,15 +59,8 @@
         </SOURCES>
       </library>
     </orderEntry>
-    <orderEntry type="library" name="Gradle: io.ktor:ktor-client-core:1.2.2" level="project" />
-    <orderEntry type="library" name="Gradle: io.ktor:ktor-http-cio:1.2.2" level="project" />
-    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:atomicfu:0.12.9" level="project" />
-    <orderEntry type="library" name="Gradle: io.ktor:ktor-http:1.2.2" level="project" />
-    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-serialization-runtime-common:0.11.1" level="project" />
-    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:atomicfu-common:0.12.9-1.3.50-eap-5" level="project" />
-    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core-common:1.3.0-RC-1.3.50-eap-5" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.50-eap-5 - stdlib" level="project" />
-    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-io:0.1.13-1.3.50-eap-5" level="project" />
-    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-io:0.1.13-1.3.50-eap-5" level="project" />
+    <orderEntry type="module" module-name="test_commonMain" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.3.50-eap-5" level="project" />
   </component>
 </module>

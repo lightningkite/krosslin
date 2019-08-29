@@ -2,7 +2,7 @@
 <module external.linked.project.id=":test:jsTest" external.linked.project.path="$MODULE_DIR$" external.root.project.path="$MODULE_DIR$/.." external.system.id="GRADLE" external.system.module.group="com.lightningkite" external.system.module.type="sourceSet" external.system.module.version="0.0.1" type="JAVA_MODULE" version="4">
   <component name="FacetManager">
     <facet type="kotlin-language" name="Kotlin">
-      <configuration version="3" platform="JavaScript " useProjectSettings="false" isTestModule="true" externalProjectId=":test">
+      <configuration version="3" platform="JavaScript " allPlatforms="JS []" useProjectSettings="false" isTestModule="true" externalProjectId=":test">
         <sourceSets>
           <sourceSet>test_jsMain</sourceSet>
           <sourceSet>test_commonMain</sourceSet>
