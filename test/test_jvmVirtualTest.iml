@@ -4,8 +4,8 @@
     <facet type="kotlin-language" name="Kotlin">
       <configuration version="3" platform="JVM 1.6" allPlatforms="JVM [1.6]" useProjectSettings="false" isTestModule="true" externalProjectId=":test">
         <sourceSets>
-          <sourceSet>test_jvmVirtualMain</sourceSet>
           <sourceSet>test_commonMain</sourceSet>
+          <sourceSet>test_jvmVirtualMain</sourceSet>
           <sourceSet>test_commonTest</sourceSet>
         </sourceSets>
         <newMppModelJpsModuleKind>COMPILATION_AND_SOURCE_SET_HOLDER</newMppModelJpsModuleKind>
@@ -91,8 +91,8 @@
     <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-test-common:1.3.41" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core-common:1.2.2" level="project" />
     <orderEntry type="module" module-name="test_commonTest" scope="TEST" production-on-test="" />
-    <orderEntry type="module" module-name="test_commonMain" scope="TEST" />
     <orderEntry type="module" module-name="test_jvmVirtualMain" scope="TEST" />
+    <orderEntry type="module" module-name="test_commonMain" scope="TEST" />
     <orderEntry type="module" module-name="mirror-form_commonMain" scope="TEST" />
     <orderEntry type="module" module-name="mirror-form_jvmVirtualMain" scope="TEST" />
     <orderEntry type="module" module-name="koolui_commonMain" scope="TEST" />
